@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13112b451764b84848e68007da5088b, type: 3}
+  m_Name: ColorDino
+  m_EditorClassIdentifier: 
+  Id: ColorDino
+  Type: 2
+  Description: "\u0426\u0432\u0435\u0442 \u0432 \u0441\u043B\u0430\u0439\u043C \u0414\u0438\u043D\u043E\u0437\u0430\u0432\u0440"
+  LocalizationKey: loc_key_slime_colour_dino
+  Price:
+    <CurrencyType>k__BackingField: 1
+    <Value>k__BackingField: 30
+  PriceReal: 0.15
+  DefaultCount: 0
+  Count: 0
+  isAdsIngredient: 0
+  ColorStaticData: {fileID: 11400000, guid: 69097c7030d93ce4599e96aa0515c1bc, type: 2}

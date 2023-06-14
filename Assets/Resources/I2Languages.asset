@@ -1,0 +1,5858 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: loc_key_arrow_left
+      TermType: 0
+      Description: 
+      Languages:
+      - <sprite="icon_gem" index=5>{0}
+      - <sprite="icon_gem" index=5>{0}
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_arrow_right
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}<sprite="icon_gem" index=5>'
+      - '{0}<sprite="icon_gem" index=5>'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C"
+      - Cancel
+      - Batal
+      - Batalkan
+      - Cancelar
+      - Anuluj
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - "\uCDE8\uC18C"
+      - "\u53D6\u6D88"
+      - "\u53D6\u6D88"
+      - Annuler
+      - Annulla
+      - Cancelar
+      - Abbrechen
+      - "\u0130ptal etmek"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_claim_gems
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C {0} <sprite=\"icon_gem\"
+        index=1>"
+      - Get {0} <sprite="icon_gem" index=1>
+      - Dapatkan {0} <sprite="icon_gem" index=1>
+      - Dapatkan {0} <sprite="icon_gem" index=1>
+      - Obter {0} <sprite="icon_gem" index=1>
+      - Uzyskaj {0} <sprite="icon_gem" index=1>
+      - "{0} \u3092\u53D6\u5F97\u3059\u308B <sprite=\"icon_gem\" index=1>"
+      - "{0} \uBC1B\uAE30 <sprite=\"icon_gem\" index=1>"
+      - "\u83B7\u53D6 {0} <sprite=\"icon_gem\" index=1>"
+      - "\u7372\u53D6 {0} <sprite=\"icon_gem\" index=1>"
+      - Obtenir {0} <sprite="icon_gem" index=1>
+      - Ottenere {0} <sprite="icon_gem" index=1>
+      - Obtener {0} <sprite="icon_gem" index=1>
+      - Erhalten {0} <sprite="icon_gem" index=1>
+      - '{0} almak <sprite="icon_gem" index=1>'
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_select
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
+      - Select
+      - Pilih
+      - Pilih
+      - Escolher
+      - Wybierz
+      - "\u9078\u629E"
+      - "\uC120\uD0DD"
+      - "\u9009\u62E9"
+      - "\u9078\u64C7"
+      - "S\xE9lectionner"
+      - Seleziona
+      - Seleccionar
+      - "W\xE4hlen"
+      - "Se\xE7"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_selected
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043D\u044F\u0442\u044C"
+      - Take off
+      - Tanggalkan
+      - Lepaskan
+      - Tirar
+      - "Zdj\u0105\u0107"
+      - "\u8131\u3050"
+      - "\uBC97\uB2E4"
+      - "\u8131"
+      - "\u812B"
+      - Enlever
+      - Togliere
+      - Quitarse
+      - Ausziehen
+      - "\xC7\u0131karmak"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_takeon
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0434\u0435\u0442\u044C"
+      - Put on
+      - Pakai
+      - Kenakan
+      - Usar
+      - "U\u017Cyj"
+      - "\u7740\u7528"
+      - "\uCC29\uC6A9\uD558\uAE30"
+      - "\u6234\u4E0A"
+      - "\u6234\u4E0A"
+      - Porter
+      - Indossa
+      - Ponerse
+      - Tragen
+      - Tak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_tryon
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u0438\u043C\u0435\u0440\u0438\u0442\u044C"
+      - Try on
+      - Cuba pakai
+      - Coba pakai
+      - Experimentar
+      - "Przymierzy\u0107"
+      - "\u8A66\u7740\u3059\u308B"
+      - "\uC785\uC5B4 \uBCF4\uB2E4"
+      - "\u8BD5\u7A7F"
+      - "\u8A66\u7A7F"
+      - Essayer
+      - Provare
+      - Probarse
+      - Anprobieren
+      - Denemek
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_shop_header
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D"
+      - Store
+      - Kedai
+      - Toko
+      - Loja
+      - Sklep
+      - "\u30B9\u30C8\u30A2"
+      - "\uC0C1\uC810"
+      - "\u5546\u5E97"
+      - "\u5546\u5E97"
+      - Magasin
+      - Negozio
+      - Tienda
+      - Shop
+      - "Ma\u011Faza"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_shop_gems
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B"
+      - Crystals
+      - Kristal
+      - Kristal
+      - Cristais
+      - "Kryszta\u0142y"
+      - "\u30AF\u30EA\u30B9\u30BF\u30EB"
+      - "\uD06C\uB9AC\uC2A4\uD0C8"
+      - "\u6C34\u6676"
+      - "\u6C34\u6676"
+      - Cristaux
+      - Cristalli
+      - Cristales
+      - Kristalle
+      - Kristaller
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_header
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - Settings
+      - Tetapan
+      - Pengaturan
+      - Ajustes
+      - Ustawienia
+      - "\u8A2D\u5B9A"
+      - "\uC124\uC815"
+      - "\u8BBE\u7F6E"
+      - "\u8A2D\u5B9A"
+      - "Param\xE8tres"
+      - Impostazioni
+      - Ajustes
+      - Einstellungen
+      - Ayarlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_universal_watchvideo
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+      - Watch
+      - Tonton
+      - Tonton
+      - Olhar
+      - "Ogl\u0105danie"
+      - "\u8996\u8074"
+      - "\uBCF4\uAE30"
+      - "\u67E5\u770B"
+      - "\u89C0\u770B"
+      - Regarder
+      - Guarda
+      - Ver
+      - Ansehen
+      - "\u0130zle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_shop_tickets
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0438\u043B\u0435\u0442\u044B"
+      - Tickets
+      - Tiket
+      - Tiket
+      - Ingressos
+      - Bilety
+      - "\u30C1\u30B1\u30C3\u30C8"
+      - "\uD2F0\uCF13"
+      - "\u7968"
+      - "\u7968"
+      - Billets
+      - Biglietti
+      - Boletos
+      - Tickets
+      - Biletler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_shop_coins
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u043E\u043D\u0435\u0442\u044B"
+      - Coins
+      - Syiling
+      - Koin
+      - Moedas
+      - Monety
+      - "\u30B3\u30A4\u30F3"
+      - "\uB3D9\uC804"
+      - "\u786C\u5E01"
+      - "\u786C\u5E63"
+      - "Pi\xE8ces"
+      - Monete
+      - Monedas
+      - "M\xFCnzen"
+      - Madeni paralar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_buymore
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0443\u043F\u0438\u0442\u044C \u0435\u0449\u0435"
+      - Buy more
+      - Beli Lagi
+      - Beli Lagi
+      - Comprar Mais
+      - "Kupi\u0107 Wi\u0119cej"
+      - "\u3082\u3063\u3068\u8CB7\u3046"
+      - "\uB354 \uC0AC\uB2E4"
+      - "\u518D\u4E70"
+      - "\u518D\u8CB7"
+      - Acheter Plus
+      - "Comprare Di Pi\xF9"
+      - "Comprar M\xE1s"
+      - Mehr Kaufen
+      - "Daha Fazla Sat\u0131n Al"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_restore
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+        \u043F\u043E\u043A\u0443\u043F\u043A\u0438"
+      - Restore Purchases
+      - Pulihkan Pembelian
+      - Pulihkan Pembelian
+      - Restaurar Compras
+      - "Przywr\xF3\u0107 Zakupy"
+      - "\u8CFC\u5165\u5C65\u6B74\u3092\u5FA9\u5143"
+      - "\uAD6C\uB9E4 \uB0B4\uC5ED \uBCF5\uC6D0"
+      - "\u6062\u590D\u8D2D\u4E70"
+      - "\u6062\u5FA9\u8CFC\u8CB7"
+      - Restaurer Les Achats
+      - Ripristinare Acquisti
+      - Restaurar Compras
+      - "Eink\xE4ufe Wiederherstellen"
+      - "Sat\u0131n Almalar\u0131 Geri Y\xFCkle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_notenough
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442"
+      - Not enough
+      - Tidak mencukupi
+      - Tidak cukup
+      - "N\xE3o \xE9 suficiente"
+      - Nie wystarcza
+      - "\u5341\u5206\u3067\u306F\u3042\u308A\u307E\u305B\u3093"
+      - "\uBD80\uC871\uD569\uB2C8\uB2E4"
+      - "\u4E0D\u591F"
+      - "\u4E0D\u5920"
+      - Pas assez
+      - "Non \xE8 sufficiente"
+      - No es suficiente
+      - Nicht genug
+      - "Yeterli de\u011Fil"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_notcontinuetoplay
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0438\u0433\u0440\u0430\u0442\u044C"
+      - Continue playing
+      - Terus bermain
+      - Lanjutkan bermain
+      - Continuar jogando
+      - "Kontynuowa\u0107 gr\u0119"
+      - "\u30B2\u30FC\u30E0\u3092\u7D9A\u3051\u308B"
+      - "\uAC8C\uC784 \uACC4\uC18D\uD558\uAE30"
+      - "\u7EE7\u7EED\u73A9"
+      - "\u7E7C\u7E8C\u73A9"
+      - "Continuer \xE0 jouer"
+      - Continuare a giocare
+      - Continuar jugando
+      - Weiter spielen
+      - Oynamaya devam et
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_Exit
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0445\u043E\u0434"
+      - Exit
+      - Keluar
+      - Keluar
+      - Sair
+      - Zamknij
+      - "\u7D42\u4E86"
+      - "\uB098\uAC00\uAE30"
+      - "\u9000\u51FA"
+      - "\u96E2\u958B"
+      - Quitter
+      - Esci
+      - Salir
+      - Ende
+      - "\xC7\u0131k"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u0432\u043E\u0439 \u0441\u043B\u0430\u0439\u043C \u043D\u0435 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0441\u044F!
+        \u0422\u043E\u0447\u043D\u043E \u0445\u043E\u0447\u0435\u0448\u044C \u0432\u044B\u0439\u0442\u0438?"
+      - Your slime will not be saved! Are you sure you want to quit?
+      - Slime anda tidak akan disimpan! Anda pasti ingin keluar?
+      - Slime Anda tidak akan disimpan! Anda yakin ingin keluar?
+      - "Seu slime n\xE3o ser\xE1 salvo! Tem certeza de que deseja sair?"
+      - "Tw\xF3j slime nie zostanie zapisany! Na pewno chcesz wyj\u015B\u0107?"
+      - "\u3042\u306A\u305F\u306E\u30B9\u30E9\u30A4\u30E0\u306F\u4FDD\u5B58\u3055\u308C\u307E\u305B\u3093\uFF01\u672C\u5F53\u306B\u7D42\u4E86\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uB2F9\uC2E0\uC758 \uC2AC\uB77C\uC784\uC740 \uC800\uC7A5\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4!
+        \uC815\uB9D0 \uB098\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "\u4F60\u7684\u7C98\u6DB2\u5C06\u4E0D\u4F1A\u88AB\u4FDD\u5B58\uFF01\u786E\u5B9A\u8981\u9000\u51FA\u5417\uFF1F"
+      - "\u4F60\u7684\u7C98\u6DB2\u5C07\u4E0D\u6703\u88AB\u4FDD\u5B58\uFF01\u78BA\u5B9A\u8981\u9000\u51FA\u55CE\uFF1F"
+      - "Votre slime ne sera pas sauvegard\xE9! \xCAtes-vous s\xFBr de vouloir quitter?"
+      - "Il tuo slime non verr\xE0 salvato! Sei sicuro di voler uscire?"
+      - "\xA1Tu slime no se guardar\xE1! \xBFEst\xE1s seguro de que quieres salir?"
+      - "Dein Schleim wird nicht gespeichert! M\xF6chtest du wirklich beenden?"
+      - "Slime'\u0131n\u0131z kaydedilmeyecek! Ger\xE7ekten \xE7\u0131kmak istiyor
+        musunuz?"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_Continue
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - Continue
+      - Teruskan
+      - Lanjutkan
+      - Continuar
+      - Kontynuuj
+      - "\u7D9A\u884C"
+      - "\uACC4\uC18D\uD558\uAE30"
+      - "\u7EE7\u7EED"
+      - "\u7E7C\u7E8C"
+      - Continuer
+      - Continua
+      - Continuar
+      - Weiter
+      - Devam et
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_openmall
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0442\u043A\u0440\u043E\u0439 \u0432 \u0422\u043E\u0440\u0433\u043E\u0432\u043E\u043C
+        \u0426\u0435\u043D\u0442\u0440\u0435"
+      - Open in the Shopping Mall
+      - Buka di Pusat Beli-belah
+      - Buka di Pusat Perbelanjaan
+      - Abra no Shopping Center
+      - "Otw\xF3rz w Centrum Handlowym"
+      - "\u30B7\u30E7\u30C3\u30D4\u30F3\u30B0\u30E2\u30FC\u30EB\u3067\u958B\u304F"
+      - "\uC1FC\uD551\uBAB0\uC5D0\uC11C \uC5F4\uAE30"
+      - "\u5728\u8D2D\u7269\u4E2D\u5FC3\u6253\u5F00 "
+      - "\u5728\u8CFC\u7269\u4E2D\u5FC3\u6253\u958B"
+      - Ouvrir dans le Centre Commercial
+      - Apri nel Centro Commerciale
+      - Abrir en el Centro Comercial
+      - "Im Einkaufszentrum \xF6ffnen"
+      - "Al\u0131\u015Fveri\u015F Merkezinde A\xE7"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_go
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0435\u0445\u0430\u0442\u044C"
+      - Go
+      - Pergi
+      - Pergi
+      - Ir
+      - "Pojecha\u0107"
+      - "\u884C\u304F"
+      - "\uAC00\uB2E4"
+      - "\u53BB"
+      - "\u53BB"
+      - Aller
+      - Andare
+      - Ir
+      - Fahren
+      - Gitmek
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_Get
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C"
+      - Get
+      - Dapatkan
+      - Dapatkan
+      - Obter
+      - "Zdob\u0105d\u017A"
+      - "\u53D6\u5F97\u3059\u308B"
+      - "\uC5BB\uB2E4"
+      - "\u83B7\u53D6"
+      - "\u7372\u53D6"
+      - Obtenir
+      - Ottenere
+      - Obtener
+      - Bekommen
+      - Almak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_itembroken
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u0442\u043E\u0442 \u043F\u0440\u0435\u0434\u043C\u0435\u0442 \u0441\u043B\u043E\u043C\u0430\u043D"
+      - This item is broken
+      - Item ini rosak
+      - Barang ini rusak
+      - "Este item est\xE1 quebrado"
+      - Ten przedmiot jest zepsuty
+      - "\u3053\u306E\u30A2\u30A4\u30C6\u30E0\u306F\u58CA\u308C\u3066\u3044\u307E\u3059"
+      - "\uC774 \uC544\uC774\uD15C\uC740 \uACE0\uC7A5\uB09C \uAC83\uC785\uB2C8\uB2E4"
+      - "\u8FD9\u4E2A\u7269\u54C1\u574F\u4E86"
+      - "\u9019\u500B\u7269\u54C1\u58DE\u4E86"
+      - "Cet objet est cass\xE9"
+      - "Questo oggetto \xE8 rotto"
+      - "Este art\xEDculo est\xE1 roto"
+      - Dieser Artikel ist kaputt
+      - "Bu \xF6\u011Fe bozuk"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_Fixit
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0447\u0438\u043D\u0438\u0442\u044C?"
+      - Fix it?
+      - Baiki dia?
+      - Perbaiki ini?
+      - Consertar isso?
+      - "Naprawi\u0107 to?"
+      - "\u4FEE\u7406\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uACE0\uCE58\uC2DC\uACA0\uC5B4\uC694?"
+      - "\u4FEE\u7406\u5B83\uFF1F"
+      - "\u4FEE\u7406\u5B83\uFF1F"
+      - "Le r\xE9parer ?"
+      - Ripararlo?
+      - "\xBFArreglarlo?"
+      - Reparieren?
+      - Tamir edelim mi?
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_Thebabyisasleep
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u043B\u044B\u0448 \u0441\u043F\u0438\u0442"
+      - Baby is sleeping
+      - Bayi sedang tidur
+      - Bayi sedang tidur
+      - "O beb\xEA est\xE1 dormindo"
+      - "Dziecko \u015Bpi"
+      - "\u8D64\u3061\u3083\u3093\u306F\u7720\u3063\u3066\u3044\u307E\u3059"
+      - "\uC544\uAE30\uAC00 \uC790\uACE0 \uC788\uC5B4\uC694"
+      - "\u5B9D\u5B9D\u5728\u7761\u89C9"
+      - "\u5BF6\u5BF6\u6B63\u5728\u7761\u89BA"
+      - "Le b\xE9b\xE9 dort"
+      - "Il beb\xE8 sta dormendo"
+      - "El beb\xE9 est\xE1 durmiendo"
+      - "Das Baby schl\xE4ft."
+      - Bebek uyuyor
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_Wakebabyup
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u043B\u044B\u0448 \u0441\u043B\u0438\u0448\u043A\u043E\u043C
+        \u0441\u043E\u043D\u043D\u044B\u0439"
+      - The baby is too sleepy
+      - Bayi itu terlalu mengantuk
+      - Bayi itu terlalu mengantuk
+      - "O beb\xEA est\xE1 com muito sono"
+      - "Dziecko jest bardzo \u015Bpi\u0105ce"
+      - "\u8D64\u3061\u3083\u3093\u304C\u3068\u3066\u3082\u7720\u3044"
+      - "\uC544\uAE30\uAC00 \uB108\uBB34 \uC878\uB824\uC694"
+      - "\u5B9D\u5B9D\u592A\u56F0\u4E86"
+      - "\u5BF6\u5BF6\u592A\u56F0\u4E86"
+      - "Le b\xE9b\xE9 est trop somnolent"
+      - "Il bambino \xE8 troppo assonnato"
+      - "El beb\xE9 est\xE1 demasiado somnoliento"
+      - "Das Baby ist zu schl\xE4frig"
+      - "Bebek \xE7ok uykulu"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_Drinkvigorpotion
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u043F\u0438\u0442\u044C \u0437\u0435\u043B\u044C\u0435 \u0431\u043E\u0434\u0440\u043E\u0441\u0442\u0438?"
+      - Drink energy potion?
+      - Minum ramuan kecergasan?
+      - Minum ramuan kebugaran?
+      - "Beba uma po\xE7\xE3o de vitalidade?"
+      - "Wypij mikstur\u0119 witalno\u015Bci?"
+      - "\u5143\u6C17\u306E\u30DD\u30FC\u30B7\u30E7\u30F3\u3092\u98F2\u307F\u307E\u3059\u304B\uFF1F"
+      - "\uD65C\uB825\uC758 \uBB3C\uC57D\uC744 \uB9C8\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "\u559D\u4E00\u74F6\u5143\u6C14\u836F\u5242\u5417\uFF1F"
+      - "\u559D\u4E00\u74F6\u5143\u6C23\u85E5\u5291\u55CE\uFF1F"
+      - "Boire une potion de vitalit\xE9 ?"
+      - "Bevi una pozione di vitalit\xE0?"
+      - "\xBFTomar una poci\xF3n de vitalidad?"
+      - "Einen Trank der Vitalit\xE4t trinken?"
+      - "Canl\u0131l\u0131k iksiri i\xE7mek?"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_ui_Duplicate
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0443\u0431\u043B\u0438\u043A\u0430\u0442"
+      - Duplicate
+      - Salinan
+      - Duplikat
+      - Duplicata
+      - Duplikat
+      - "\u91CD\u8907"
+      - "\uBCF5\uC81C\uD488"
+      - "\u590D\u5236\u54C1"
+      - "\u8907\u88FD\u54C1"
+      - Dupliquer
+      - Duplicato
+      - Duplicado
+      - Duplikat
+      - "\xC7ift"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_Level
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+      - Level
+      - Tahap
+      - Level
+      - "N\xEDvel"
+      - Poziom
+      - "\u30EC\u30D9\u30EB"
+      - "\uB808\uBCA8"
+      - "\u7B49\u7EA7"
+      - "\u7B49\u7D1A"
+      - Niveau
+      - Livello
+      - Nivel
+      - Level
+      - Seviye
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_Congratulations
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u0435\u043C!"
+      - Congratulations!
+      - Tahniah!
+      - Selamat!
+      - "Parab\xE9ns!"
+      - Gratulacje!
+      - "\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059\uFF01"
+      - "\uCD95\uD558\uD569\uB2C8\uB2E4! "
+      - "\u606D\u559C\uFF01"
+      - "\u606D\u559C\uFF01"
+      - "F\xE9licitations !"
+      - Congratulazioni!
+      - "\xA1Felicidades!"
+      - "Herzlichen Gl\xFCckwunsch!"
+      - Tebrikler!
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_taptocontinue
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0436\u043C\u0438, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - Tap to continue
+      - Tekan untuk Meneruskan
+      - Tekan untuk Lanjut
+      - Pressione para Continuar
+      - "Naci\u015Bnij, aby kontynuowa\u0107"
+      - "\u7D9A\u884C\u3059\u308B\u306B\u306F\u62BC\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uACC4\uC18D\uD558\uB824\uBA74 \uB204\uB974\uC138\uC694"
+      - "\u6309\u4E0B\u4EE5\u7EE7\u7EED"
+      - "\u6309\u4E0B\u4EE5\u7E7C\u7E8C"
+      - Appuyez pour Continuer
+      - Premi per Continuare
+      - Presiona para Continuar
+      - "Dr\xFCcken, um Fortzufahren"
+      - "Devam etmek i\xE7in bas\u0131n"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_NextAward
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0430\u044F \u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+      - Next reward
+      - Ganjaran seterusnya
+      - Hadiah berikutnya
+      - "Pr\xF3xima recompensa"
+      - "Nast\u0119pna nagroda"
+      - "\u6B21\u306E\u5831\u916C"
+      - "\uB2E4\uC74C \uBCF4\uC0C1"
+      - "\u4E0B\u4E00\u4E2A\u5956\u52B1"
+      - "\u4E0B\u4E00\u500B\u734E\u52F5"
+      - "Prochaine r\xE9compense"
+      - Prossima ricompensa
+      - "Pr\xF3xima recompensa"
+      - "N\xE4chste belohnung"
+      - "Sonraki \xF6d\xFCl"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_play
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0418\u0433\u0440\u0430\u0442\u044C"
+      - Play
+      - Main
+      - Main
+      - Jogar
+      - Graj
+      - "\u30D7\u30EC\u30A4"
+      - "\uD50C\uB808\uC774"
+      - "\u5F00\u59CB\u6E38\u620F"
+      - "\u958B\u59CB"
+      - Jouer
+      - Gioca
+      - Jugar
+      - Start
+      - Oyna
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_Levelpassed
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u043F\u0440\u043E\u0439\u0434\u0435\u043D!"
+      - Level completed!
+      - Tahap berjaya!
+      - Level berhasil!
+      - "N\xEDvel conclu\xEDdo!"
+      - "Poziom uko\u0144czony!"
+      - "\u30EC\u30D9\u30EB\u30AF\u30EA\u30A2\uFF01"
+      - "\uB808\uBCA8 \uD074\uB9AC\uC5B4!"
+      - "\u901A\u8FC7\u5173\u5361\uFF01"
+      - "\u901A\u904E\u95DC\u5361\uFF01"
+      - "Niveau termin\xE9 !"
+      - Livello completato!
+      - "\xA1Nivel completado!"
+      - Level bestanden!
+      - "Seviye ge\xE7ildi!"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_blue
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043E\u043B\u0443\u0431\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Blue eyes
+      - Mata biru
+      - Mata biru
+      - Olhos azuis
+      - Niebieskie oczy
+      - "\u9752\u3044\u77B3"
+      - "\uD30C\uB780 \uB208"
+      - "\u84DD\u773C\u775B"
+      - "\u85CD\u773C\u775B"
+      - Yeux bleus
+      - Occhi azzurri
+      - Ojos azules
+      - Blaue Augen
+      - "Mavi g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_brown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0430\u0440\u0438\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Brown eyes
+      - Mata coklat
+      - Mata coklat
+      - Olhos castanhos
+      - "Br\u0105zowe oczy"
+      - "\u8336\u8272\u3044\u77B3"
+      - "\uAC08\uC0C9 \uB208"
+      - "\u68D5\u8272\u773C\u775B"
+      - "\u68D5\u8272\u773C\u775B"
+      - Yeux marron
+      - Occhi marroni
+      - Ojos marrones
+      - Braune Augen
+      - "Kahverengi g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_gray
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0435\u0440\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Grey eyes
+      - Mata kelabu
+      - Mata abu-abu
+      - Olhos cinzentos
+      - Szare oczy
+      - "\u7070\u8272\u306E\u77B3"
+      - "\uD68C\uC0C9 \uB208"
+      - "\u7070\u773C\u775B"
+      - "\u7070\u773C\u775B"
+      - Yeux gris
+      - Occhi grigi
+      - Ojos grises
+      - Graue Augen
+      - "Gri g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_demonic
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430 \u0447\u0435\u0440\u0442\u0435\u043D\u043A\u0430"
+      - Impish eyes
+      - Mata jahat
+      - Mata setan kecil
+      - Olhos de diabinho
+      - Diabelskie oczy
+      - "\u5C0F\u60AA\u9B54\u306E\u76EE"
+      - "\uC7AC\uAC04\uBE7C\uB294 \uB208"
+      - "\u5C0F\u6076\u9B54\u7684\u773C\u775B"
+      - "\u5C0F\u60E1\u9B54\u7684\u773C\u775B"
+      - "Yeux espi\xE8gles"
+      - Occhi birichini
+      - Ojos de travesura
+      - Augen eines Schelm
+      - "C\xFCce \u015Feytan g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_kitty
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0448\u0430\u0447\u044C\u0438 \u0433\u043B\u0430\u0437\u0430"
+      - Kitty eyes
+      - Mata kucing
+      - Mata kucing
+      - Olhos de gato
+      - Kocie oczy
+      - "\u732B\u76EE"
+      - "\uACE0\uC591\uC774 \uB208"
+      - "\u732B\u773C\u775B"
+      - "\u8C93\u773C\u775B"
+      - Yeux de chat
+      - Occhi di gatto
+      - Ojos de gato
+      - Katzenaugen
+      - "Kedi g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_robot
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430 \u0440\u043E\u0431\u043E\u0442\u0430"
+      - Robot eyes
+      - Mata robot
+      - Mata robot
+      - "Olhos de rob\xF4"
+      - Oczy robota
+      - "\u30ED\u30DC\u30C3\u30C8\u306E\u76EE"
+      - "\uB85C\uBD07 \uB208"
+      - "\u673A\u5668\u4EBA\u773C\u775B"
+      - "\u6A5F\u5668\u4EBA\u773C\u775B"
+      - Yeux de robot
+      - Occhi di robot
+      - Ojos de robot
+      - Roboter-Augen
+      - "Robot g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_rainbow
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0430\u0434\u0443\u0436\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Rainbow eyes
+      - Mata pelangi
+      - Mata pelangi
+      - "Olhos arco-\xEDris"
+      - "T\u0119czowe oczy"
+      - "\u8679\u8272\u306E\u77B3"
+      - "\uBB34\uC9C0\uAC1C \uB208"
+      - "\u5F69\u8679\u773C\u775B"
+      - "\u5F69\u8679\u773C\u775B"
+      - Yeux arc-en-ciel
+      - Occhi arcobaleno
+      - "Ojos de arco\xEDris"
+      - Regenbogenaugen
+      - "G\xF6kku\u015Fa\u011F\u0131 g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_snow
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430-\u0441\u043D\u0435\u0436\u0438\u043D\u043A\u0438"
+      - Snowflake eyes
+      - Mata salji
+      - Mata salju
+      - Olhos de flocos de neve
+      - "\u015Anie\u017Cynkowe oczy"
+      - "\u96EA\u306E\u7D50\u6676\u306E\u3088\u3046\u306A\u77B3"
+      - "\uB208\uC1A1\uC774 \uB208"
+      - "\u96EA\u82B1\u773C\u775B"
+      - "\u96EA\u82B1\u773C\u775B"
+      - Yeux de flocon de neige
+      - Occhi di fiocco di neve
+      - Ojos de copo de nieve
+      - Schneeflockenaugen
+      - "Kar tanesi g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_alien
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430 \u043F\u0440\u0438\u0448\u0435\u043B\u044C\u0446\u0430"
+      - Alien eyes
+      - Mata alien
+      - Mata alien
+      - "Olhos de alien\xEDgena"
+      - Obce oczy
+      - "\u5B87\u5B99\u4EBA\u306E\u76EE"
+      - "\uC678\uACC4\uC778 \uB208"
+      - "\u5916\u661F\u4EBA\u773C\u775B"
+      - "\u5916\u661F\u4EBA\u773C\u775B"
+      - Yeux d'extraterrestre
+      - Occhi di alieno
+      - Ojos de extraterrestre
+      - Alien-Augen
+      - "Uzayl\u0131 g\xF6zleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_atomic
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u0442\u043E\u043C\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Atomic eyes
+      - Mata atom
+      - Mata atom
+      - "Olhos at\xF4micos"
+      - Atomowe oczy
+      - "\u539F\u5B50\u306E\u76EE"
+      - "\uC6D0\uC790 \uB208"
+      - "\u539F\u5B50\u773C\u775B"
+      - "\u539F\u5B50\u773C\u775B"
+      - Yeux atomiques
+      - Occhi atomici
+      - "Ojos at\xF3micos"
+      - Atom-Augen
+      - "Atomik g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_green
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0435\u043B\u0435\u043D\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Green eyes
+      - Mata hijau
+      - Mata hijau
+      - Olhos verdes
+      - Zielone oczy
+      - "\u7DD1\u306E\u77B3"
+      - "\uB179\uC0C9 \uB208"
+      - "\u7EFF\u773C\u775B"
+      - "\u7DA0\u773C\u775B"
+      - Yeux verts
+      - Occhi verdi
+      - Ojos verdes
+      - "Gr\xFCne Augen"
+      - "Ye\u015Fil g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_yellow
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0416\u0435\u043B\u0442\u044B\u0435 \u0433\u043B\u0430\u0437\u0430"
+      - Yellow eyes
+      - Mata kuning
+      - Mata kuning
+      - Olhos amarelos
+      - "\u017B\xF3\u0142te oczy"
+      - "\u9EC4\u8272\u3044\u77B3"
+      - "\uB178\uB780 \uB208"
+      - "\u9EC4\u773C\u775B"
+      - "\u9EC3\u773C\u775B"
+      - Yeux jaunes
+      - Occhi gialli
+      - Ojos amarillos
+      - Gelbe Augen
+      - "Sar\u0131 g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_indigo
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430 \u0438\u043D\u0434\u0438\u0433\u043E"
+      - Indigo eyes
+      - Mata nila
+      - Mata indigo
+      - "Olhos \xEDndigo"
+      - Indygo oczy
+      - "\u30A4\u30F3\u30C7\u30A3\u30B4\u306E\u77B3"
+      - "\uC778\uB514\uACE0 \uB208"
+      - "\u975B\u84DD\u8272\u773C\u775B"
+      - "\u975B\u85CD\u8272\u773C\u775B"
+      - Yeux indigo
+      - Occhi indaco
+      - "Ojos \xEDndigo"
+      - Indigofarbene Augen
+      - "Indigo g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_hearts
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043B\u0430\u0437\u0430-\u0441\u0435\u0440\u0434\u0435\u0447\u043A\u0438"
+      - Heart eyes
+      - Mata hati
+      - Mata hati
+      - "Olhos de cora\xE7\xE3o"
+      - Serduszka w oczach
+      - "\u30CF\u30FC\u30C8\u578B\u306E\u77B3"
+      - "\uD558\uD2B8 \uB208"
+      - "\u7231\u5FC3\u773C\u775B"
+      - "\u611B\u5FC3\u773C\u775B"
+      - "Yeux en c\u0153ur"
+      - Occhi a cuore
+      - "Ojos de coraz\xF3n"
+      - "Herzf\xF6rmige Augen"
+      - "Kalp \u015Fekilli g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_eyes_lighting
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0432\u0435\u0442\u044F\u0449\u0438\u0435\u0441\u044F \u0433\u043B\u0430\u0437\u0430"
+      - Glowing eyes
+      - Mata bersinar
+      - Mata bersinar
+      - Olhos brilhantes
+      - "\u015Awiec\u0105ce oczy"
+      - "\u8F1D\u304F\u77B3"
+      - "\uBE5B\uB098\uB294 \uB208"
+      - "\u53D1\u5149\u773C\u775B"
+      - "\u767C\u5149\u773C\u775B"
+      - Yeux lumineux
+      - Occhi luminosi
+      - Ojos brillantes
+      - Leuchtende Augen
+      - "Parlayan g\xF6zler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_PilotGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0447\u043A\u0438 \u043F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u043E\u0433\u043E"
+      - Police glasses
+      - Cermin mata polis
+      - Kacamata polisi
+      - "\xD3culos de policial"
+      - Okulary policyjne
+      - "\u8B66\u5BDF\u773C\u93E1"
+      - "\uACBD\uCC30 \uC548\uACBD"
+      - "\u8B66\u5BDF\u773C\u955C"
+      - "\u8B66\u5BDF\u773C\u93E1"
+      - Lunettes de police
+      - Occhiali da poliziotto
+      - "Gafas de polic\xEDa"
+      - Polizeibrille
+      - "Polis g\xF6zl\xFC\u011F\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_SportGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043E\u0447\u043A\u0438"
+      - Sports glasses
+      - Cermin mata sukan
+      - Kacamata olahraga
+      - "\xD3culos esportivos"
+      - Okulary sportowe
+      - "\u30B9\u30DD\u30FC\u30C4\u773C\u93E1"
+      - "\uC2A4\uD3EC\uCE20 \uC548\uACBD"
+      - "\u8FD0\u52A8\u773C\u955C"
+      - "\u904B\u52D5\u773C\u93E1"
+      - Lunettes de sport
+      - Occhiali sportivi
+      - Gafas deportivas
+      - Sportbrille
+      - "Spor g\xF6zl\xFC\u011F\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_RoundGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0443\u0433\u043B\u044B\u0435 \u043E\u0447\u043A\u0438"
+      - Round glasses
+      - Cermin mata bulat
+      - Kacamata bulat
+      - "\xD3culos redondos"
+      - "Okulary okr\u0105g\u0142e"
+      - "\u4E38\u3044\u773C\u93E1"
+      - "\uB465\uADFC \uC548\uACBD"
+      - "\u5706\u5F62\u773C\u955C"
+      - "\u5713\u5F62\u773C\u93E1"
+      - Lunettes rondes
+      - Occhiali rotondi
+      - Gafas redondas
+      - Runde Brille
+      - "Yuvarlak g\xF6zl\xFCkler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_VisionGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0447\u043A\u0438 \u0441 \u043B\u0438\u043D\u0437\u0430\u043C\u0438"
+      - Serious glasses
+      - Cermin mata yang serius
+      - Kacamata serius
+      - "\xD3culos s\xE9rios"
+      - "Powa\u017Cne okulary"
+      - "\u771F\u5263\u306A\u773C\u93E1"
+      - "\uC9C4\uC9C0\uD55C \uC548\uACBD"
+      - "\u4E25\u8083\u773C\u955C"
+      - "\u56B4\u8085\u773C\u93E1"
+      - "Lunettes s\xE9rieuses"
+      - Occhiali seri
+      - Gafas serias
+      - "Seri\xF6se Brille"
+      - "Ciddi g\xF6zl\xFCkler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_ClownNose
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043B\u043E\u0443\u043D\u0441\u043A\u0438\u0439 \u043D\u043E\u0441"
+      - Clown nose
+      - Hidung badut
+      - Hidung badut
+      - "Nariz de palha\xE7o"
+      - Cyrkowy nos
+      - "\u30AF\u30E9\u30A6\u30F3\u306E\u9F3B"
+      - "\uAD11\uB300 \uCF54"
+      - "\u5C0F\u4E11\u9F3B\u5B50"
+      - "\u5C0F\u4E11\u9F3B\u5B50"
+      - Nez de clown
+      - Naso da clown
+      - Nariz de payaso
+      - Clowns-Nase
+      - "Palya\xE7o burunu"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_MonocleGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u043E\u043D\u043E\u043A\u043B\u044C"
+      - Monocle
+      - Monokel
+      - Monokel
+      - "Mon\xF3culo"
+      - Monokl
+      - "\u30E2\u30CE\u30AF\u30EB"
+      - "\uBAA8\uB178\uD074"
+      - "\u5355\u7247\u773C\u955C"
+      - "\u55AE\u7247\u773C\u93E1"
+      - Monocle
+      - Monocolo
+      - "Mon\xF3culo"
+      - Monokel
+      - Monokl
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_EyePatch
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0438\u0440\u0430\u0442\u0441\u043A\u0430\u044F \u043F\u043E\u0432\u044F\u0437\u043A\u0430"
+      - Pirate headband
+      - Penutup mata lanun
+      - Perban mata bajak laut
+      - Tapete de olho de pirata
+      - Opatrunek piracki
+      - "\u6D77\u8CCA\u306E\u773C\u5E2F"
+      - "\uD574\uC801 \uC548\uB300"
+      - "\u6D77\u76D7\u773C\u7F69"
+      - "\u6D77\u76DC\u773C\u7F69"
+      - Cache-oeil de pirate
+      - Benda per l'occhio da pirata
+      - Parche para el ojo pirata
+      - Piraten-Augenklappe
+      - "Korsan g\xF6z band\u0131\u011F\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_BushyMustache
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u0443\u0441\u0442\u044B\u0435 \u0443\u0441\u044B"
+      - Thick mustache
+      - Kumis tebal
+      - Kumis tebal
+      - Bigode grosso
+      - "G\u0119ste w\u0105sy"
+      - "\u6FC3\u3044\u9AED"
+      - "\uBFCC\uB9AC \uAD75\uC740 \uCF67\uC218\uC5FC"
+      - "\u6D53\u5BC6\u80E1\u987B"
+      - "\u6FC3\u5BC6\u9B0D\u9B1A"
+      - "Moustache \xE9paisse"
+      - Baffi folti
+      - Bigote espeso
+      - Dichter Schnurrbart
+      - "G\xFCrb\xFCz b\u0131y\u0131k"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_DivingMask
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0441\u043A\u0430 \u0434\u043B\u044F \u043D\u044B\u0440\u044F\u043D\u0438\u044F"
+      - Diving Mask
+      - Topeng penyelaman
+      - Masker penyelaman
+      - "M\xE1scara de mergulho"
+      - "Mask\u0119 do nurkowania"
+      - "\u30C0\u30A4\u30D3\u30F3\u30B0\u30DE\u30B9\u30AF"
+      - "\uB2E4\uC774\uBE59 \uB9C8\uC2A4\uD06C"
+      - "\u6F5C\u6C34\u9762\u7F69"
+      - "\u6F5B\u6C34\u9762\u7F69"
+      - "Masque de plong\xE9e"
+      - Maschera da immersione
+      - "M\xE1scara de buceo"
+      - Tauchmaske
+      - "Dal\u0131\u015F maskesi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_StarGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0447\u043A\u0438 \u0437\u0432\u0435\u0437\u0434\u043E\u0447\u0435\u0442\u0430"
+      - Astronomer's glasses
+      - Kaca mata ahli astronomi
+      - Kacamata astronom
+      - "\xD3culos de astr\xF4nomo"
+      - Okulary astronoma
+      - "\u5929\u6587\u5B66\u8005\u306E\u30E1\u30AC\u30CD"
+      - "\uCC9C\uBB38\uD559\uC790 \uC548\uACBD"
+      - "\u5929\u6587\u773C\u955C"
+      - "\u5929\u6587\u773C\u93E1"
+      - Lunettes d'astronome
+      - Occhiali da astronomo
+      - "Gafas de astr\xF3nomo"
+      - Astronomiebrille
+      - "Astronom g\xF6zl\xFC\u011F\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_FutureGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0424\u0443\u0442\u0443\u0440\u0438\u0441\u0442\u0438\u0447\u043D\u044B\u0435
+        \u043E\u0447\u043A\u0438 "
+      - Futuristic glasses
+      - Cermin mata futuristik
+      - Kacamata futuristik
+      - "\xD3culos futuristas"
+      - Futurystyczne okulary
+      - "\u672A\u6765\u7684\u306A\u773C\u93E1"
+      - "\uBBF8\uB798\uC801\uC778 \uC548\uACBD"
+      - "\u672A\u6765\u4E3B\u4E49\u773C\u955C"
+      - "\u672A\u4F86\u4E3B\u7FA9\u773C\u93E1"
+      - Lunettes futuristes
+      - Occhiali futuristici
+      - Gafas futuristas
+      - Futuristische Brille
+      - "Gelece\u011Fe y\xF6nelik g\xF6zl\xFCkler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_HeartGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0447\u043A\u0438-\u0441\u0435\u0440\u0434\u0435\u0447\u043A\u0438"
+      - Heart glasses
+      - Cermin mata hati
+      - Kacamata hati
+      - "\xD3culos de cora\xE7\xE3o"
+      - "Okulary w kszta\u0142cie serca"
+      - "\u30CF\u30FC\u30C8\u578B\u306E\u773C\u93E1"
+      - "\uD558\uD2B8 \uC548\uACBD"
+      - "\u5FC3\u5F62\u773C\u955C"
+      - "\u5FC3\u5F62\u773C\u93E1"
+      - "Lunettes c\u0153ur"
+      - Occhiali a cuore
+      - "Gafas coraz\xF3n"
+      - Herzbrille
+      - "Kalp g\xF6zl\xFCkleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_RapGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0447\u043A\u0438 \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u0430"
+      - Musician's glasses
+      - Cermin mata pemuzik
+      - Kacamata musisi
+      - "\xD3culos de m\xFAsico"
+      - Okulary muzyka
+      - "\u30DF\u30E5\u30FC\u30B8\u30B7\u30E3\u30F3\u306E\u773C\u93E1"
+      - "\uC74C\uC545\uAC00 \uC548\uACBD"
+      - "\u97F3\u4E50\u5BB6\u773C\u955C"
+      - "\u97F3\u6A02\u5BB6\u773C\u93E1"
+      - Lunettes de musicien
+      - Occhiali da musicista
+      - "Gafas de m\xFAsico"
+      - Musikerbrille
+      - "M\xFCzisyen g\xF6zl\xFCkleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_ThinMustache
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u043E\u043D\u043A\u0438\u0435 \u0443\u0441\u0438\u043A\u0438"
+      - Thin mustache
+      - Misai nipis
+      - Kumis tipis
+      - Bigodes finos
+      - "Cienkie w\u0105sy"
+      - "\u7D30\u3044\u3072\u3052"
+      - "\uC587\uC740 \uC218\uC5FC"
+      - "\u7EC6\u5C0F\u7684\u80E1\u987B"
+      - "\u7D30\u5C0F\u7684\u9B0D\u9B1A"
+      - Moustaches fines
+      - Baffi sottili
+      - Bigotes finos
+      - "D\xFCnne Schnurrhaare"
+      - "\u0130nce b\u0131y\u0131klar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_SuperheroMask
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0441\u043A\u0430 \u0441\u0443\u043F\u0435\u0440\u0433\u0435\u0440\u043E\u044F"
+      - Superhero mask
+      - Topeng superhero
+      - Topeng superhero
+      - "M\xE1scara de super-her\xF3i"
+      - Maska superbohatera
+      - "\u30B9\u30FC\u30D1\u30FC\u30D2\u30FC\u30ED\u30FC\u30DE\u30B9\u30AF"
+      - "\uC288\uD37C\uD788\uC5B4\uB85C \uB9C8\uC2A4\uD06C"
+      - "\u8D85\u7EA7\u82F1\u96C4\u9762\u5177"
+      - "\u8D85\u7D1A\u82F1\u96C4\u9762\u5177"
+      - "Masque de super-h\xE9ros"
+      - Maschera del supereroe
+      - "M\xE1scara de superh\xE9roe"
+      - Superhelden-Maske
+      - "S\xFCper kahraman maskesi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_MakeupOnFace
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u0435\u0447\u0435\u0440\u043D\u0438\u0439 \u043C\u0430\u043A\u0438\u044F\u0436"
+      - Evening makeup
+      - Solekan malam
+      - Riasan malam
+      - Maquiagem noturna
+      - "Wieczorowy makija\u017C"
+      - "\u30A4\u30D6\u30CB\u30F3\u30B0\u30E1\u30A4\u30AF\u30A2\u30C3\u30D7"
+      - "\uC800\uB141 \uBA54\uC774\uD06C\uC5C5"
+      - "\u665A\u5986"
+      - "\u665A\u599D"
+      - "Maquillage de soir\xE9e"
+      - Trucco da sera
+      - Maquillaje de noche
+      - Abend-Make-up
+      - "Ak\u015Fam makyaj\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_SteampunkGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0442\u0438\u043C\u043F\u0430\u043D\u043A \u043E\u0447\u043A\u0438"
+      - Steampunk goggles
+      - Gogal steampunk
+      - Kacamata steampunk
+      - "\xD3culos steampunk"
+      - Okulary steampunkowe
+      - "\u30B9\u30C1\u30FC\u30E0\u30D1\u30F3\u30AF\u30B4\u30FC\u30B0\u30EB"
+      - "\uC2A4\uD300\uD391\uD06C \uC548\uACBD"
+      - "\u84B8\u6C7D\u670B\u514B\u62A4\u76EE\u955C"
+      - "\u84B8\u6C23\u670B\u514B\u8B77\u76EE\u93E1"
+      - Lunettes steampunk
+      - Occhiali steampunk
+      - Gafas de estilo steampunk
+      - Steampunk-Brille
+      - "Buhar punk g\xF6zl\xFCkleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_EmperorNapoleonBeard
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0418\u043C\u043F\u0435\u0440\u0430\u0442\u043E\u0440\u0441\u043A\u0430\u044F
+        \u0431\u043E\u0440\u043E\u0434\u0430"
+      - Imperial beard
+      - Janggut kaisar
+      - Jenggot kekaisaran
+      - Barba imperial
+      - Cesarska broda
+      - "\u30A4\u30F3\u30DA\u30EA\u30A2\u30EB\u30D3\u30A2\u30FC\u30C9"
+      - "\uD669\uC81C\uC758 \uC218\uC5FC"
+      - "\u5E1D\u738B\u80E1\u987B"
+      - "\u5E1D\u738B\u9B0D\u9B1A"
+      - "Barbe imp\xE9riale"
+      - Barba imperiale
+      - Barba imperial
+      - Kaiserlicher Bart
+      - "\u0130mparatorluk sakal\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_RayBanGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u043E\u0434\u043D\u044B\u0435 \u043E\u0447\u043A\u0438"
+      - Fashionable glasses
+      - Kacamata fesyen
+      - Kacamata modis
+      - "\xD3culos da moda"
+      - Modne okulary
+      - "\u30D5\u30A1\u30C3\u30B7\u30E7\u30CA\u30D6\u30EB\u306A\u773C\u93E1"
+      - "\uC720\uD589 \uC548\uACBD"
+      - "\u65F6\u5C1A\u773C\u955C"
+      - "\u6642\u5C1A\u773C\u93E1"
+      - "Lunettes \xE0 la mode"
+      - Occhiali alla moda
+      - Gafas de moda
+      - Modische Brille
+      - "Moda g\xF6zl\xFCkleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_PointedGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043B\u0435\u0433\u0430\u043D\u0442\u043D\u044B\u0435 \u043E\u0447\u043A\u0438"
+      - Elegant glasses
+      - Kaca mata elegan
+      - Kacamata elegan
+      - "\xD3culos elegantes"
+      - Eleganckie okulary
+      - "\u30A8\u30EC\u30AC\u30F3\u30C8\u306A\u773C\u93E1"
+      - "\uC6B0\uC544\uD55C \uC548\uACBD"
+      - "\u4F18\u96C5\u773C\u955C"
+      - "\u512A\u96C5\u773C\u93E1"
+      - "Lunettes \xE9l\xE9gantes"
+      - Occhiali eleganti
+      - Gafas elegantes
+      - Elegante Brille
+      - "\u015E\u0131k g\xF6zl\xFCkler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_FireGlasses
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0433\u043D\u0435\u043D\u043D\u044B\u0435 \u043E\u0447\u043A\u0438"
+      - Fiery glasses
+      - Kaca mata berapi
+      - Kacamata api
+      - "\xD3culos flamejantes"
+      - Ogniste okulary
+      - "\u706B\u306E\u773C\u93E1"
+      - "\uBD88\uAF43 \uC548\uACBD"
+      - "\u706B\u7130\u773C\u955C"
+      - "\u706B\u7130\u773C\u93E1"
+      - "Lunettes enflamm\xE9es"
+      - Occhiali infuocati
+      - Gafas de fuego
+      - Feurige Brille
+      - "Alevli g\xF6zl\xFCkler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_faceals_AnchorBeard
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u043E\u0440\u043E\u0434\u0430 \u044F\u043A\u043E\u0440\u044C"
+      - Anchor beard
+      - Janggut kapal
+      - Janggut jangkar
+      - "Barba de \xE2ncora"
+      - Broda kotwiczka
+      - "\u30A2\u30F3\u30AB\u30FC\u30D3\u30A2\u30FC\u30C9"
+      - "\uC575\uCEE4 \uC218\uC5FC"
+      - "\u951A\u578B\u80E1\u987B"
+      - "\u9328\u578B\u9B0D\u9B1A"
+      - Barbe ancre
+      - Barba ad ancoretta
+      - Barba de ancla
+      - Ankerbart
+      - "\xC7apa sakal\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_regular
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21161"
+      - Normal skin #1
+      - 'Kulit biasa #1
+
+'
+      - Kulit normal #1
+      - "Apar\xEAncia comum 1"
+      - Normalna karnacja 1
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #1"
+      - "\uC77C\uBC18 \uD53C\uBD80 #1"
+      - "\u666E\u901A\u76AE\u80A4 #1"
+      - "\u666E\u901A\u5916\u89C0 #1"
+      - Peau normale #1
+      - Carnagione normale 1
+      - "Piel com\xFAn 1"
+      - Normale Haut 1
+      - Normal ten rengi #1
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_albino
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21162"
+      - Normal skin #2
+      - Kulit biasa #2
+      - Kulit normal #2
+      - "Apar\xEAncia comum 2"
+      - Normalna karnacja 2
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #2"
+      - "\uC77C\uBC18 \uD53C\uBD80 #2"
+      - "\u666E\u901A\u76AE\u80A4 #2"
+      - "\u666E\u901A\u5916\u89C0 #2"
+      - Peau normale #2
+      - Carnagione normale 2
+      - "Piel com\xFAn 2"
+      - Normale Haut 2
+      - Normal ten rengi #2
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_african
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21163"
+      - Normal skin #3
+      - Kulit biasa #3
+      - Kulit normal #3
+      - "Apar\xEAncia comum 3"
+      - Normalna karnacja 3
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #3"
+      - "\uC77C\uBC18 \uD53C\uBD80 #3"
+      - "\u666E\u901A\u76AE\u80A4 #3"
+      - "\u666E\u901A\u5916\u89C0 #3"
+      - Peau normale #3
+      - Carnagione normale 3
+      - "Piel com\xFAn 3"
+      - Normale Haut 3
+      - Normal ten rengi #3
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_chinese
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21164"
+      - Normal skin #4
+      - Kulit biasa #4
+      - Kulit normal #4
+      - "Apar\xEAncia comum 4"
+      - Normalna karnacja 4
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #4"
+      - "\uC77C\uBC18 \uD53C\uBD80 #4"
+      - "\u666E\u901A\u76AE\u80A4 #4"
+      - "\u666E\u901A\u5916\u89C0 #4"
+      - Peau normale #4
+      - Carnagione normale 4
+      - "Piel com\xFAn 4"
+      - Normale Haut 4
+      - Normal ten rengi #4
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_swarthy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21165"
+      - Normal skin #5
+      - Kulit biasa #5
+      - Kulit normal #5
+      - "Apar\xEAncia comum 5"
+      - Normalna karnacja 5
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #5"
+      - "\uC77C\uBC18 \uD53C\uBD80 #5"
+      - "\u666E\u901A\u76AE\u80A4 #5"
+      - "\u666E\u901A\u5916\u89C0 #5"
+      - Peau normale #5
+      - Carnagione normale 5
+      - "Piel com\xFAn 5"
+      - Normale Haut 5
+      - Normal ten rengi #5
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_brown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21166"
+      - Normal skin #6
+      - Kulit biasa #6
+      - Kulit normal #6
+      - "Apar\xEAncia comum 6"
+      - Normalna karnacja 6
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #6"
+      - "\uC77C\uBC18 \uD53C\uBD80 #6"
+      - "\u666E\u901A\u76AE\u80A4 #6"
+      - "\u666E\u901A\u5916\u89C0 #6"
+      - Peau normale #6
+      - Carnagione normale 6
+      - "Piel com\xFAn 6"
+      - Normale Haut 6
+      - Normal ten rengi #6
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_white
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21167"
+      - Normal skin #7
+      - Kulit biasa #7
+      - Kulit normal #7
+      - "Apar\xEAncia comum 7"
+      - Normalna karnacja 7
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #7"
+      - "\uC77C\uBC18 \uD53C\uBD80 #7"
+      - "\u666E\u901A\u76AE\u80A4 #7"
+      - "\u666E\u901A\u5916\u89C0 #7"
+      - Peau normale #7
+      - Carnagione normale 7
+      - "Piel com\xFAn 7"
+      - Normale Haut 7
+      - Normal ten rengi #7
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_black_light
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u043A\u043E\u0436\u0430 \u21168"
+      - Normal skin #8
+      - Kulit biasa #8
+      - Kulit normal #8
+      - "Apar\xEAncia comum 8"
+      - Normalna karnacja 8
+      - "\u30CE\u30FC\u30DE\u30EB\u808C #8"
+      - "\uC77C\uBC18 \uD53C\uBD80 #8"
+      - "\u666E\u901A\u76AE\u80A4 #8"
+      - "\u666E\u901A\u5916\u89C0 #8"
+      - Peau normale #8
+      - Carnagione normale 8
+      - "Piel com\xFAn 8"
+      - Normale Haut 8
+      - Normal ten rengi #8
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_devil
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0436\u0430 \u0447\u0435\u0440\u0442\u0435\u043D\u043A\u0430"
+      - Imp Skin
+      - Kulit makhluk halus
+      - Kulit setan
+      - Pele de diabinho
+      - "Sk\xF3ra demona"
+      - "\u30A4\u30F3\u30D7\u306E\u808C"
+      - "\uC784\uD504\uC758 \uD53C\uBD80"
+      - "\u5C0F\u6076\u9B54\u76AE\u80A4"
+      - "\u5C0F\u60E1\u9B54\u76AE\u819A"
+      - Peau d'imp
+      - Pelle di folletto
+      - Piel de duende
+      - "D\xE4monenhaut"
+      - "\u0130blis derisi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_lizard
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0436\u0430 \u044F\u0449\u0435\u0440\u0430"
+      - Lizard Skin
+      - Kulit kadal
+      - Kulit kadal
+      - Pele de lagarto
+      - "Sk\xF3ra jaszczura"
+      - "\u30C8\u30AB\u30B2\u306E\u76AE"
+      - "\uB3C4\uB9C8\uBC40 \uAC00\uC8FD"
+      - "\u8725\u8734\u76AE\u80A4"
+      - "\u8725\u8734\u76AE\u819A"
+      - "Peau de l\xE9zard"
+      - Pelle di lucertola
+      - Piel de lagarto
+      - Echsenhaut
+      - Kertenkele derisi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_robot
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0436\u0430 \u0440\u043E\u0431\u043E\u0442\u0430"
+      - Robot skin
+      - Kulit robot
+      - Kulit robot
+      - "Pele de rob\xF4"
+      - "Sk\xF3ra robota"
+      - "\u30ED\u30DC\u30C3\u30C8\u306E\u76AE\u819A"
+      - "\uB85C\uBD07 \uD53C\uBD80"
+      - "\u673A\u5668\u4EBA\u76AE\u80A4"
+      - "\u6A5F\u5668\u4EBA\u76AE\u819A"
+      - Peau de robot
+      - Pelle di robot
+      - Piel de robot
+      - Roboterhaut
+      - Robot derisi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_military
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u043E\u0435\u043D\u043D\u044B\u0439 \u0433\u0440\u0438\u043C"
+      - Military makeup
+      - Solekan tentera
+      - Riasan militer
+      - Maquiagem militar
+      - "Makija\u017C wojskowy"
+      - "\u30DF\u30EA\u30BF\u30EA\u30FC\u30E1\u30A4\u30AF"
+      - "\uAD70\uC6A9 \uBA54\uC774\uD06C\uC5C5"
+      - "\u519B\u88C5\u5316\u5986"
+      - "\u8ECD\u88DD\u5316\u599D"
+      - Maquillage militaire
+      - Trucco militare
+      - Maquillaje militar
+      - "Milit\xE4r-Make-up"
+      - Askeri makyaj
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_zombie
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0436\u0430 \u0437\u043E\u043C\u0431\u0438"
+      - Zombie skin
+      - Kulit zombi
+      - Kulit zombie
+      - Pele de zumbi
+      - "Sk\xF3ra zombie"
+      - "\u30BE\u30F3\u30D3\u306E\u76AE\u819A"
+      - "\uC880\uBE44 \uD53C\uBD80"
+      - "\u50F5\u5C38\u76AE\u80A4"
+      - "\u6BAD\u5C4D\u76AE\u819A"
+      - Peau de zombie
+      - Pelle di zombie
+      - Piel de zombi
+      - Zombiehaut
+      - Zombi derisi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_freckles
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u0435\u0441\u043D\u0443\u0448\u043A\u0438"
+      - Freckles
+      - Bintik-bintik kulit
+      - Bintik-bintik di wajah
+      - Sardas
+      - Piegi
+      - "\u305D\u3070\u304B\u3059"
+      - "\uC8FC\uADFC\uAE68"
+      - "\u96C0\u6591"
+      - "\u96C0\u6591"
+      - Taches de rousseur
+      - Lentiggini
+      - Pecas
+      - Sommersprossen
+      - "\xC7il"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_tiger
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u0438\u0433\u0440\u0438\u043D\u0430\u044F \u043A\u043E\u0436\u0430"
+      - Tiger skin
+      - Kulit harimau
+      - Kulit harimau
+      - Pele de tigre
+      - "Sk\xF3ra tygrysa"
+      - "\u864E\u306E\u76AE\u819A"
+      - "\uD638\uB791\uC774 \uAC00\uC8FD"
+      - "\u864E\u76AE"
+      - "\u864E\u76AE"
+      - Peau de tigre
+      - Pelle di tigre
+      - Piel de tigre
+      - Tigerhaut
+      - Kaplan derisi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_clown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u0440\u0438\u043C \u043A\u043B\u043E\u0443\u043D\u0430"
+      - "\u0421lown makeup"
+      - Solekan badut
+      - Riasan badut
+      - "Maquiagem de palha\xE7o"
+      - Charakteryzacja klauna
+      - "\u9053\u5316\u5E2B\u306E\u30E1\u30A4\u30AF\u30A2\u30C3\u30D7"
+      - "\uAD11\uB300 \uBA54\uC774\uD06C\uC5C5"
+      - "\u5C0F\u4E11\u5316\u5986"
+      - "\u5C0F\u4E11\u5316\u599D"
+      - Maquillage de clown
+      - Trucco da clown
+      - Maquillaje de payaso
+      - Clown-Make-up
+      - "Palya\xE7o makyaj\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_skin_leopard
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u0435\u043E\u043F\u0430\u0440\u0434\u043E\u0432\u0430\u044F \u043A\u043E\u0436\u0430"
+      - Leopard skin
+      - Kulit berleopard
+      - Kulit macan tutul
+      - Pele de leopardo
+      - "Sk\xF3ra lamparta"
+      - "\u30D2\u30E7\u30A6\u67C4\u306E\u76AE"
+      - "\uD45C\uBC94 \uBB34\uB2AC \uAC00\uC8FD"
+      - "\u8C79\u7EB9\u76AE\u9769"
+      - "\u8C79\u7D0B\u76AE\u9769"
+      - "Peau de l\xE9opard"
+      - Pelle di leopardo
+      - Piel de leopardo
+      - Leopardenfell
+      - Leopar derisi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Police
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0430\u044F \u0444\u043E\u0440\u043C\u0430"
+      - Police uniform
+      - Pakaian seragam polis
+      - Seragam polisi
+      - Uniforme policial
+      - Mundur policyjny
+      - "\u8B66\u5BDF\u306E\u5236\u670D"
+      - "\uACBD\uCC30 \uC720\uB2C8\uD3FC"
+      - "\u8B66\u670D"
+      - "\u8B66\u670D"
+      - Uniforme de police
+      - Uniforme da poliziotto
+      - Uniforme policial
+      - Polizeiuniform
+      - "Polis \xFCniformas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Sport
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u0430\u044F \u0444\u0443\u0442\u0431\u043E\u043B\u043A\u0430"
+      - Sports t-shirt
+      - Baju sukan
+      - Kaos olahraga
+      - Camiseta esportiva
+      - Koszulka sportowa
+      - "\u30B9\u30DD\u30FC\u30C4T\u30B7\u30E3\u30C4"
+      - "\uC2A4\uD3EC\uCE20 \uD2F0\uC154\uCE20"
+      - "\u8FD0\u52A8T\u6064"
+      - "\u904B\u52D5T\u6064"
+      - T-shirt de sport
+      - Maglietta sportiva
+      - Camiseta deportiva
+      - Sport-T-Shirt
+      - "Spor ti\u015F\xF6rt\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Hawaiia
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u0430\u0432\u0430\u0439\u0441\u043A\u0430\u044F \u0440\u0443\u0431\u0430\u0448\u043A\u0430"
+      - Hawaiian shirt
+      - Baju Hawaiian
+      - Kemeja Hawaii
+      - Camisa havaiana
+      - Koszula hawajska
+      - "\u30CF\u30EF\u30A4\u30A2\u30F3\u30B7\u30E3\u30C4"
+      - "\uD558\uC640\uC774\uC5B8 \uC154\uCE20"
+      - "\u590F\u5A01\u5937\u886C\u886B"
+      - "\u590F\u5A01\u5937\u896F\u886B"
+      - "Chemise hawa\xEFenne"
+      - Camicia hawaiana
+      - Camisa hawaiana
+      - Hawaiihemd
+      - "Hawaii g\xF6mle\u011Fi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Knight
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u044B\u0446\u0430\u0440\u0441\u043A\u0430\u044F \u0431\u0440\u043E\u043D\u044F"
+      - Knight armor
+      - Baju Zirah Kesatria
+      - Baju Zirah Ksatria
+      - Armadura de cavaleiro
+      - Zbroja rycerska
+      - "\u30CA\u30A4\u30C8\u30A2\u30FC\u30DE\u30FC"
+      - "\uAE30\uC0AC \uAC11\uC637"
+      - "\u9A91\u58EB\u76D4\u7532"
+      - "\u9A0E\u58EB\u76D4\u7532"
+      - Armure de chevalier
+      - Armatura da cavaliere
+      - Armadura de caballero
+      - "Ritterr\xFCstung"
+      - "\u015E\xF6valye z\u0131rh\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Pirate
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041E\u0434\u0435\u0436\u0434\u0430 \u043F\u0438\u0440\u0430\u0442\u0430"
+      - Pirate outfit
+      - Pakaian lanun
+      - Pakaian bajak laut
+      - Roupa de pirata
+      - "Str\xF3j pirata"
+      - "\u6D77\u8CCA\u306E\u8863\u88C5"
+      - "\uD574\uC801 \uBCF5\uC7A5"
+      - "\u6D77\u76D7\u670D\u88C5"
+      - "\u6D77\u76DC\u670D\u88DD"
+      - Tenue de pirate
+      - Abbigliamento da pirata
+      - Vestimenta de pirata
+      - "Piratenkost\xFCm"
+      - "Korsan k\u0131yafeti"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_LeatherJacket
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0436\u0430\u043D\u0430\u044F \u043A\u0443\u0440\u0442\u043A\u0430"
+      - Leather jacket
+      - Jaket kulit
+      - Jaket kulit
+      - Jaqueta de couro
+      - "Kurtka sk\xF3rzana"
+      - "\u30EC\u30B6\u30FC\u30B8\u30E3\u30B1\u30C3\u30C8"
+      - "\uAC00\uC8FD \uC7AC\uD0B7"
+      - "\u76AE\u5939\u514B"
+      - "\u76AE\u593E\u514B"
+      - Veste en cuir
+      - Giacca di pelle
+      - Chaqueta de cuero
+      - Lederjacke
+      - Deri ceket
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Superhero
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0441\u0442\u044E\u043C \u0441\u0443\u043F\u0435\u0440\u0433\u0435\u0440\u043E\u044F"
+      - Superhero costume
+      - Kostum superhero
+      - Kostum superhero
+      - "Fantasia de super-her\xF3i"
+      - Kostium superbohatera
+      - "\u30B9\u30FC\u30D1\u30FC\u30D2\u30FC\u30ED\u30FC\u306E\u8863\u88C5"
+      - "\uC288\uD37C \uD788\uC5B4\uB85C \uBCF5\uC7A5"
+      - "\u8D85\u7EA7\u82F1\u96C4\u670D\u88C5"
+      - "\u8D85\u7D1A\u82F1\u96C4\u670D\u88DD"
+      - "Costume de super-h\xE9ros"
+      - Costume da supereroe
+      - "Disfraz de superh\xE9roe"
+      - "Superhelden-Kost\xFCm"
+      - "S\xFCper kahraman kost\xFCm\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Boss
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0435\u043B\u043E\u0432\u043E\u0439 \u043A\u043E\u0441\u0442\u044E\u043C"
+      - Business suit
+      - Pakaian bisnes
+      - Setelan bisnis
+      - "Terno de neg\xF3cios"
+      - Garnitur biznesowy
+      - "\u30D3\u30B8\u30CD\u30B9\u30B9\u30FC\u30C4"
+      - "\uBE44\uC988\uB2C8\uC2A4 \uC815\uC7A5"
+      - "\u5546\u52A1\u897F\u88C5"
+      - "\u5546\u52D9\u897F\u88DD"
+      - Costume d'affaires
+      - Abito da lavoro
+      - Traje de negocios
+      - Business-Anzug
+      - "\u0130\u015F tak\u0131m\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Fairy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0441\u0442\u044E\u043C \u0444\u0435\u0438"
+      - Fairy costume
+      - Kostum peri
+      - Kostum peri
+      - Fantasia de fada
+      - "Kostium wr\xF3\u017Cki"
+      - "\u5996\u7CBE\u306E\u30B3\u30B9\u30C1\u30E5\u30FC\u30E0"
+      - "\uC694\uC815 \uC758\uC0C1"
+      - "\u4ED9\u5973\u670D\u88C5"
+      - "\u4ED9\u5973\u670D\u88DD"
+      - "Costume de f\xE9e"
+      - Costume di fata
+      - Disfraz de hada
+      - "Feenkost\xFCm"
+      - "Peri kost\xFCm\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_TShirt
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0430\u0439\u043A\u0430"
+      - Tank top
+      - Baju tanpa lengan
+      - Kaos tanpa lengan
+      - Regata
+      - "Koszulka bez r\u0119kaw\xF3w"
+      - "\u30BF\u30F3\u30AF\u30C8\u30C3\u30D7"
+      - "\uBBFC\uC18C\uB9E4"
+      - "\u65E0\u8896\u886B"
+      - "\u7121\u8896\u886B"
+      - "D\xE9bardeur"
+      - Canotta
+      - Camiseta sin mangas
+      - Tanktop
+      - "S\u0131rt dekolteli ti\u015F\xF6rt"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Diving
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0441\u0442\u044E\u043C \u0434\u0430\u0439\u0432\u0435\u0440\u0430"
+      - Diver suit
+      - Pakaian penyelam
+      - Baju penyelam
+      - Roupa de mergulhador
+      - Kombinezon nurka
+      - "\u30C0\u30A4\u30D0\u30FC\u30B9\u30FC\u30C4"
+      - "\uB2E4\uC774\uBC84 \uC218\uD2B8"
+      - "\u6F5C\u6C34\u670D"
+      - "\u6F5B\u6C34\u670D"
+      - "Combinaison de plong\xE9e"
+      - Mutua da sub
+      - Traje de buceo
+      - Taucheranzug
+      - "Dalg\u0131\xE7 k\u0131yafeti"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Lumberjack
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0443\u0431\u0430\u0448\u043A\u0430 \u043B\u0435\u0441\u043E\u0440\u0443\u0431\u0430"
+      - Lumberjack shirt
+      - Kemeja lumberjack
+      - Kemeja lumberjack
+      - Camisa de lenhador
+      - Koszula drwala
+      - "\u30E9\u30F3\u30D0\u30FC\u30B8\u30E3\u30C3\u30AF\u30B7\u30E3\u30C4"
+      - "\uB098\uBB34\uAFBC \uC154\uCE20"
+      - "\u4F10\u6728\u5DE5\u886C\u886B"
+      - "\u4F10\u6728\u5DE5\u896F\u886B"
+      - "Chemise de b\xFBcheron"
+      - Camicia da boscaiolo
+      - "Camisa de le\xF1ador"
+      - "Holzf\xE4llerhemd"
+      - "Oduncu g\xF6mle\u011Fi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_JeansVest
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0436\u0438\u043D\u0441\u043E\u0432\u0430\u044F \u0436\u0438\u043B\u0435\u0442\u043A\u0430"
+      - Denim vest
+      - Rompi denim
+      - Rompi denim
+      - Colete jeans
+      - "Kamizelka d\u017Cinsowa"
+      - "\u30C7\u30CB\u30E0\u30D9\u30B9\u30C8"
+      - "\uCCAD\uBC14\uC9C0 \uC870\uB07C"
+      - "\u725B\u4ED4\u80CC\u5FC3"
+      - "\u725B\u4ED4\u80CC\u5FC3"
+      - Gilet en jean
+      - Gilet di jeans
+      - Chaleco de mezclilla
+      - Jeansweste
+      - Kot yelek
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_BalletTutu
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u043B\u0435\u0442\u043D\u0430\u044F \u043F\u0430\u0447\u043A\u0430"
+      - Ballet tutu
+      - Tutu balet
+      - Tutu balet
+      - "Tutu de bal\xE9"
+      - Tutu baletowe
+      - "\u30D0\u30EC\u30A8\u30C1\u30E5\u30C1\u30E5"
+      - "\uBC1C\uB808 \uD22C\uD22C"
+      - "\u82AD\u857E\u821E\u77ED\u88D9"
+      - "\u82AD\u857E\u821E\u77ED\u88D9"
+      - Tutu de ballet
+      - "Tut\xF9 da balletto"
+      - "Tut\xFA de ballet"
+      - Balletttutu
+      - "Bale t\xFCt\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_PinkPullover
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u043E\u0437\u043E\u0432\u044B\u0439 \u0441\u0432\u0438\u0442\u0435\u0440"
+      - Pink sweater
+      - Sweater pink
+      - Sweater pink
+      - "Su\xE9ter rosa"
+      - "R\xF3\u017Cowy sweter"
+      - "\u30D4\u30F3\u30AF\u306E\u30BB\u30FC\u30BF\u30FC"
+      - "\uBD84\uD64D\uC0C9 \uC2A4\uC6E8\uD130"
+      - "\u7C89\u8272\u6BDB\u8863"
+      - "\u7C89\u7D05\u8272\u6BDB\u8863"
+      - Pull rose
+      - Maglione rosa
+      - "Su\xE9ter rosa"
+      - Rosa Pullover
+      - Pembe kazak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Cyberpunk
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0438\u0431\u0435\u0440\u043F\u0430\u043D\u043A \u043A\u0443\u0440\u0442\u043A\u0430"
+      - Cyberpunk jacket
+      - Jaket cyberpunk
+      - Jaket cyberpunk
+      - Jaqueta cyberpunk
+      - Kurtka cyberpunkowa
+      - "\u30B5\u30A4\u30D0\u30FC\u30D1\u30F3\u30AF\u306E\u30B8\u30E3\u30B1\u30C3\u30C8"
+      - "\uC0AC\uC774\uBC84 \uD391\uD06C \uC7AC\uD0B7"
+      - "\u8D5B\u535A\u670B\u514B\u5939\u514B"
+      - "\u8CFD\u535A\u670B\u514B\u593E\u514B"
+      - Veste cyberpunk
+      - Giacca cyberpunk
+      - Chaqueta cyberpunk
+      - Cyberpunk-Jacke
+      - Siberpunk ceketi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Kimono
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0438\u043C\u043E\u043D\u043E"
+      - Kimono
+      - Kimono
+      - Kimono
+      - Kimono
+      - Kimono
+      - "\u7740\u7269"
+      - "\uAE30\uBAA8\uB178"
+      - "\u548C\u670D"
+      - "\u548C\u670D"
+      - Kimono
+      - Kimono
+      - Kimono
+      - Kimono
+      - Kimono
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Hairy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0430\u0441\u043D\u0430\u044F \u0440\u0443\u0431\u0430\u0448\u043A\u0430"
+      - Red shirt
+      - Baju merah
+      - Kemeja merah
+      - Camisa vermelha
+      - Czerwona koszula
+      - "\u8D64\u3044\u30B7\u30E3\u30C4"
+      - "\uBE68\uAC04\uC0C9 \uC154\uCE20"
+      - "\u7EA2\u886C\u886B"
+      - "\u7D05\u896F\u886B"
+      - Chemise rouge
+      - Camicia rossa
+      - Camisa roja
+      - Rotes Hemd
+      - "K\u0131rm\u0131z\u0131 g\xF6mlek"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Viking
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0440\u043E\u043D\u044F \u0432\u0438\u043A\u0438\u043D\u0433\u0430"
+      - Viking armor
+      - Baju zirah Viking
+      - Zirah Viking
+      - Armadura Viking
+      - Pancerz wikinga
+      - "\u30D0\u30A4\u30AD\u30F3\u30B0\u306E\u93A7"
+      - "\uBC14\uC774\uD0B9 \uAC11\uC637"
+      - "\u7EF4\u4EAC\u76D4\u7532"
+      - "\u7DAD\u4EAC\u76D4\u7532"
+      - Armure de Viking
+      - Armatura vichinga
+      - Armadura vikinga
+      - "Wikinger-R\xFCstung"
+      - "Viking z\u0131rh\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_NathanDrakeJacket
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0443\u0431\u0430\u0448\u043A\u0430 \u043F\u0440\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0446\u0430"
+      - Adventurer's shirt
+      - Kemeja pengembara
+      - Kemeja petualang
+      - Camisa de Aventureiro
+      - "Koszula poszukiwacza przyg\xF3d"
+      - "\u5192\u967A\u5BB6\u306E\u30B7\u30E3\u30C4"
+      - "\uBAA8\uD5D8\uAC00 \uC154\uCE20"
+      - "\u5192\u9669\u5BB6\u886C\u886B"
+      - "\u5192\u96AA\u5BB6\u896F\u886B"
+      - Chemise d'aventurier
+      - Camicia dell'avventuriero
+      - Camisa de aventurero
+      - Abenteurerhemd
+      - "Macerac\u0131 g\xF6mle\u011Fi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Monk
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0425\u0430\u043B\u0430\u0442 \u043C\u043E\u043D\u0430\u0445\u0430"
+      - Monk's robe
+      - Jubah biarawan
+      - Jubah biarawan
+      - Batina do monge
+      - Habit mnicha
+      - "\u4FEE\u9053\u58EB\u306E\u30ED\u30FC\u30D6"
+      - "\uC218\uB3C4\uC790\uC758 \uB85C\uBE0C"
+      - "\u50E7\u4FA3\u7684\u888D\u5B50"
+      - "\u50E7\u4FB6\u7684\u888D\u5B50"
+      - Robe de moine
+      - Vesti da monaco
+      - "T\xFAnica de monje"
+      - "M\xF6nchskutte"
+      - "Ke\u015Fi\u015F c\xFCbbesi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_AsymmetricalBlouse
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0441\u0442\u044E\u043C \u0444\u0438\u0433\u0443\u0440\u0438\u0441\u0442\u0430"
+      - Skater costume
+      - Kostum skater
+      - Kostum skater
+      - Fantasia de patinador
+      - "Kostium \u0142y\u017Cwiarza"
+      - "\u30B9\u30B1\u30FC\u30C8\u8863\u88C5"
+      - "\uC2A4\uCF00\uC774\uD2B8 \uBCF5"
+      - "\u6ED1\u51B0\u670D\u88C5"
+      - "\u6E9C\u51B0\u670D\u88DD"
+      - Costume de patineur
+      - Costume da pattinatore
+      - Traje de patinador
+      - "Eiskunstlaufkost\xFCm"
+      - "Patenci kost\xFCm\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Bandeau
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u043E\u043F\u0438\u043A"
+      - Top
+      - Atas
+      - Atasan
+      - Top
+      - "G\xF3ra"
+      - "\u30C8\u30C3\u30D7"
+      - "\uC0C1\uB2E8"
+      - "\u4E0A\u90E8"
+      - "\u4E0A\u90E8"
+      - Haut
+      - Top
+      - Top
+      - Oberteil
+      - "\xDCst"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_BowVest
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0416\u0438\u043B\u0435\u0442\u043A\u0430 \u0441 \u0431\u0430\u043D\u0442\u0438\u043A\u043E\u043C"
+      - Vest with bow
+      - Rompi dengan reben
+      - Rompi dengan pita
+      - "Colete com la\xE7o"
+      - "Kamizelka z kokardk\u0105"
+      - "\u30EA\u30DC\u30F3\u4ED8\u304D\u306E\u30D9\u30B9\u30C8"
+      - "\uB9AC\uBCF8\uC774 \uB2EC\uB9B0 \uC870\uB07C"
+      - "\u5E26\u8774\u8776\u7ED3\u7684\u9A6C\u7532"
+      - "\u5E36\u8774\u8776\u7D50\u7684\u99AC\u7532"
+      - "Gilet avec un n\u0153ud"
+      - Gilet con fiocco
+      - Chaleco con lazo
+      - Weste mit Schleife
+      - Fiyonklu yelek
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_DeerPullover
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u043E\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043D\u0441\u043A\u0438\u0439
+        \u0441\u0432\u0438\u0442\u0435\u0440"
+      - Christmas sweater
+      - Baju sweater Krismas
+      - Sweater Natal
+      - "Su\xE9ter de Natal"
+      - "Sweter \u015Bwi\u0105teczny"
+      - "\u30AF\u30EA\u30B9\u30DE\u30B9\u30BB\u30FC\u30BF\u30FC"
+      - "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uC2A4\uC6E8\uD130"
+      - "\u5723\u8BDE\u6BDB\u8863"
+      - "\u8056\u8A95\u6BDB\u8863"
+      - "Pull de No\xEBl"
+      - Maglione natalizio
+      - "Su\xE9ter navide\xF1o"
+      - Weihnachtspullover
+      - Noel kazak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_BunnyPollo
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u043E \u0441 \u0437\u0430\u0439\u0447\u0438\u043A\u043E\u043C"
+      - Bunny polo
+      - Polo kelinci
+      - Polo kelinci
+      - Polo coelho
+      - "Polo z kr\xF3liczkiem"
+      - "\u30D0\u30CB\u30FC\u30DD\u30ED\u30B7\u30E3\u30C4"
+      - "\uD1A0\uB07C \uD3F4\uB85C"
+      - "\u5154\u5B50\u77ED\u8896\u886B"
+      - "\u5154\u5B50\u77ED\u8896\u886B"
+      - Polo lapin
+      - Polo con coniglietto
+      - Polo de conejito
+      - "H\xE4schen-Polo"
+      - "Tav\u015Fanl\u0131 polo"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_RockVest
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0416\u0438\u043B\u0435\u0442\u043A\u0430 \u0441 \u0446\u0432\u0435\u0442\u043A\u043E\u043C"
+      - Floral vest
+      - Rompi bunga
+      - Rompi bunga
+      - Colete floral
+      - Kamizelka kwiatowa
+      - "\u82B1\u67C4\u30D9\u30B9\u30C8"
+      - "\uAF43 \uBB34\uB2AC \uC870\uB07C"
+      - "\u82B1\u80CC\u5FC3"
+      - "\u82B1\u80CC\u5FC3"
+      - Gilet floral
+      - Gilet floreale
+      - Chaleco floral
+      - Blumenvest
+      - "\xC7i\xE7ekli yelek"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_PrincessClothes
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0440\u044F\u0434 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u044B"
+      - Princess outfit
+      - Pakaian puteri
+      - Busana putri
+      - Traje de princesa
+      - "Str\xF3j ksi\u0119\u017Cniczki"
+      - "\u30D7\u30EA\u30F3\u30BB\u30B9\u306E\u670D\u88C5"
+      - "\uACF5\uC8FC\uBCF5"
+      - "\u516C\u4E3B\u670D\u88C5"
+      - "\u516C\u4E3B\u670D\u88DD"
+      - Tenue de princesse
+      - Abito da principessa
+      - Atuendo de princesa
+      - Prinzessinnen-Outfit
+      - "Prenses k\u0131yafeti"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Dress
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u043E\u043F \u043E\u0442 \u043F\u043B\u0430\u0442\u044C\u044F"
+      - Dress top
+      - Atas pakaian
+      - Atasan dress
+      - Top de vestido
+      - "G\xF3ra sukienki"
+      - "\u30C9\u30EC\u30B9\u306E\u30C8\u30C3\u30D7"
+      - "\uB4DC\uB808\uC2A4 \uC0C1\uC758"
+      - "\u8FDE\u8863\u88D9\u4E0A\u8863"
+      - "\u9023\u8863\u88D9\u4E0A\u8863 "
+      - Haut de robe
+      - Top del vestito
+      - Parte superior del vestido
+      - Oberteil vom Kleid
+      - "Elbise \xFCst k\u0131sm\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shirt_Pompon
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u043B\u0435\u0442\u043D\u044B\u0439 \u0442\u043E\u043F"
+      - Atas balet
+      - Atasan balet
+      - Atasan balet
+      - "Top de bal\xE9"
+      - "G\xF3ra baletowa"
+      - "\u30D0\u30EC\u30A8\u30C8\u30C3\u30D7"
+      - "\uBC1C\uB808 \uD0D1"
+      - "\u82AD\u857E\u4E0A\u8863"
+      - "\u82AD\u857E\u4E0A\u8863"
+      - Top de ballet
+      - Top da balletto
+      - Top de ballet
+      - Ballett-Oberteil
+      - "Bale \xFCst k\u0131sm\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_standart
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0441\u0442\u0440\u0438\u0436\u043A\u0430"
+      - Classic haircut
+      - Potongan rambut klasik
+      - Potongan rambut klasik
+      - "Corte de cabelo cl\xE1ssico"
+      - Klasyczna fryzura
+      - "\u30AF\u30E9\u30B7\u30C3\u30AF\u306A\u30D8\u30A2\u30AB\u30C3\u30C8"
+      - "\uD074\uB798\uC2DD\uD55C \uD5E4\uC5B4\uCEF7"
+      - "\u7ECF\u5178\u53D1\u578B"
+      - "\u7D93\u5178\u9AEE\u578B"
+      - Coupe de cheveux classique
+      - Taglio di capelli classico
+      - "Corte de pelo cl\xE1sico"
+      - Klassische Frisur
+      - "Klasik sa\xE7 kesimi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Police
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0430\u044F \u0444\u0443\u0440\u0430\u0436\u043A\u0430"
+      - Police cap
+      - Topi polis
+      - Topi polisi
+      - Quepe policial
+      - Czapka policyjna
+      - "\u30DD\u30EA\u30B9\u30AD\u30E3\u30C3\u30D7"
+      - "\uACBD\uCC30 \uBAA8\uC790"
+      - "\u8B66\u5BDF\u5E3D"
+      - "\u8B66\u5BDF\u5E3D"
+      - Casquette de police
+      - Berretto da poliziotto
+      - "Gorra de polic\xEDa"
+      - Polizeikappe
+      - Polis kepi
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Sports
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u0430\u044F \u043A\u0435\u043F\u043A\u0430"
+      - Sports cap
+      - Topi sukan
+      - Topi olahraga
+      - "Bon\xE9 esportivo"
+      - Czapka sportowa
+      - "\u30B9\u30DD\u30FC\u30C4\u30AD\u30E3\u30C3\u30D7"
+      - "\uC2A4\uD3EC\uCE20 \uBAA8\uC790 "
+      - "\u8FD0\u52A8\u5E3D"
+      - "\u904B\u52D5\u5E3D"
+      - Casquette de sport
+      - Cappellino sportivo
+      - Gorra deportiva
+      - Sportkappe
+      - "Spor \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_PiterPan
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0424\u0435\u0434\u043E\u0440\u0430"
+      - Fedora
+      - Fedora
+      - Fedora
+      - Fedora
+      - Fedora
+      - "\u30D5\u30A7\u30C9\u30E9\u5E3D"
+      - "\uD398\uB3C4\uB77C"
+      - "\u8054\u51A0\u5E3D"
+      - "\u806F\u51A0\u5E3D"
+      - Fedora
+      - Fedora
+      - Fedora
+      - Fedora
+      - Fedora
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Crown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0440\u043E\u043D\u0430"
+      - Crown
+      - Mahkota
+      - Mahkota
+      - Coroa
+      - Korona
+      - "\u738B\u51A0"
+      - "\uC655\uAD00"
+      - "\u738B\u51A0"
+      - "\u738B\u51A0"
+      - Couronne
+      - Corona
+      - Corona
+      - Krone
+      - "Ta\xE7"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Ponytails
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0425\u0432\u043E\u0441\u0442\u0438\u043A\u0438"
+      - Ponytails
+      - Kuncir
+      - Ekor kuda
+      - Rabos de cavalo
+      - Kitki
+      - "\u30DD\u30CB\u30FC\u30C6\u30FC\u30EB"
+      - "\uD3EC\uB2C8\uD14C\uC77C"
+      - "\u9A6C\u5C3E\u8FAB"
+      - "\u99AC\u5C3E\u8FAE"
+      - Couettes
+      - Code di cavallo
+      - Colas de caballo
+      - "Pferdeschw\xE4nze"
+      - At kuyruklar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Bob
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0424\u0438\u043E\u043B\u0435\u0442\u043E\u0432\u044B\u0435 \u0432\u043E\u043B\u043E\u0441\u044B"
+      - Purple hair
+      - Rambut ungu
+      - Rambut ungu
+      - Cabelo roxo
+      - "Fioletowe w\u0142osy"
+      - "\u7D2B\u8272\u306E\u9AEA"
+      - "\uBCF4\uB77C\uBE5B \uBA38\uB9AC"
+      - "\u7D2B\u8272\u5934\u53D1"
+      - "\u7D2B\u8272\u982D\u9AEE"
+      - Cheveux violets
+      - Capelli viola
+      - Cabello morado
+      - Violette Haare
+      - "Mor sa\xE7lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Pirate
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0438\u0440\u0430\u0442\u0441\u043A\u0430\u044F \u0448\u043B\u044F\u043F\u0430"
+      - Pirate hat
+      - Topi lanun
+      - Topi bajak laut
+      - "Chap\xE9u de pirata"
+      - Kapelusz piracki
+      - "\u6D77\u8CCA\u5E3D\u5B50"
+      - "\uD574\uC801 \uBAA8\uC790"
+      - "\u6D77\u76D7\u5E3D\u5B50"
+      - "\u6D77\u76DC\u5E3D\u5B50"
+      - Chapeau de pirate
+      - Cappello da pirata
+      - Sombrero de pirata
+      - Piratenhut
+      - "Korsan \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Horns
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u043E\u0436\u043A\u0438"
+      - Horns
+      - Tanduk
+      - Tanduk
+      - Chifres
+      - Rogi
+      - "\u89D2"
+      - "\uBFD4"
+      - "\u89D2"
+      - "\u89D2"
+      - Cornes
+      - Corna
+      - Cuernos
+      - "H\xF6rner"
+      - Boynuzlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Chef
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u043B\u043F\u0430\u043A \u043F\u043E\u0432\u0430\u0440\u0430"
+      - Chef's hat
+      - Topi chef
+      - Topi chef
+      - "Chap\xE9u de chef"
+      - Czapka kucharska
+      - "\u30B7\u30A7\u30D5\u306E\u5E3D\u5B50"
+      - "\uC8FC\uBC29\uC7A5 \uBAA8\uC790"
+      - "\u53A8\u5E08\u5E3D"
+      - "\u5EDA\u5E2B\u5E3D"
+      - Toque de chef
+      - Cappello da chef
+      - Gorro de chef
+      - "Kochm\xFCtze"
+      - "A\u015F\xE7\u0131 \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_HairUp
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0432\u044F\u0437\u043A\u0430 \u043D\u0430 \u0433\u043E\u043B\u043E\u0432\u0443"
+      - Headband
+      - Tali kepala
+      - Bando
+      - "Faixa de cabe\xE7a"
+      - "Opaska na g\u0142ow\u0119"
+      - "\u30D8\u30C3\u30C9\u30D0\u30F3\u30C9"
+      - "\uD5E4\uB4DC\uBC34\uB4DC"
+      - "\u5934\u5E26"
+      - "\u982D\u5E36"
+      - Bandeau
+      - Fascia per capelli
+      - Banda para la cabeza
+      - Haarband
+      - "Ba\u015F band\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Pilot
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0428\u0430\u043F\u043A\u0430 \u043B\u0435\u0442\u0447\u0438\u043A\u0430"
+      - Pilot cap
+      - Topi penerbang
+      - Topi pilot
+      - "Chap\xE9u de piloto"
+      - Czapka pilota
+      - "\u30D1\u30A4\u30ED\u30C3\u30C8\u5E3D"
+      - "\uC870\uC885\uC0AC \uBAA8\uC790"
+      - "\u98DE\u884C\u5458\u5E3D\u5B50"
+      - "\u98DB\u884C\u54E1\u5E3D\u5B50"
+      - Casquette de pilote
+      - Cappello da pilota
+      - Gorra de piloto
+      - "Pilotenm\xFCtze"
+      - "Pilot \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Clown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043B\u043E\u0443\u043D\u0441\u043A\u0438\u0439 \u043F\u0430\u0440\u0438\u043A"
+      - Clown wig
+      - Wig badut
+      - Wig badut
+      - "Peruca de palha\xE7o"
+      - Peruka klauna
+      - "\u30AF\u30E9\u30A6\u30F3\u30A6\u30A3\u30C3\u30B0"
+      - "\uAD11\uB300 \uC6C3\uC74C\uC18C\uB9AC"
+      - "\u5C0F\u4E11\u5047\u53D1"
+      - "\u5C0F\u4E11\u5047\u9AEE"
+      - Perruque de clown
+      - Parrucca da clown
+      - Peluca de payaso
+      - "Clownper\xFCcke"
+      - "Palya\xE7o peruk"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_WarBonnet
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0435\u0440\u044C\u044F \u0438\u043D\u0434\u0435\u0439\u0446\u0430"
+      - Indian feathers
+      - Bulu Indian
+      - Bulu Indian
+      - "Penas de \xEDndio"
+      - "Pi\xF3ra india\u0144skie"
+      - "\u30A4\u30F3\u30C7\u30A3\u30A2\u30F3\u306E\u7FBD\u6839"
+      - "\uC778\uB514\uC5B8\uC758 \uAE43\uD138"
+      - "\u5370\u7B2C\u5B89\u4EBA\u7684\u7FBD\u6BDB"
+      - "\u5370\u7B2C\u5B89\u4EBA\u7684\u7FBD\u6BDB"
+      - Plumes d'Indien
+      - Piume degli indiani
+      - Plumas de indio
+      - Indianerfedern
+      - "K\u0131z\u0131lderili t\xFCyleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Cowboy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0432\u0431\u043E\u0439\u0441\u043A\u0430\u044F \u0448\u043B\u044F\u043F\u0430"
+      - Cowboy hat
+      - Topi koboi
+      - Topi koboi
+      - "Chap\xE9u de cowboy"
+      - Kapelusz kowbojski
+      - "\u30AB\u30A6\u30DC\u30FC\u30A4\u30CF\u30C3\u30C8"
+      - "\uCE74\uC6B0\uBCF4\uC774 \uBAA8\uC790"
+      - "\u725B\u4ED4\u5E3D"
+      - "\u725B\u4ED4\u5E3D"
+      - Chapeau de cowboy
+      - Cappello da cowboy
+      - Sombrero de vaquero
+      - Cowboyhut
+      - "Kovboy \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Mohawk
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0418\u0440\u043E\u043A\u0435\u0437"
+      - Mohawk
+      - Mohawk
+      - Iroquois
+      - Moicano
+      - Irokez
+      - "\u30E2\u30D2\u30AB\u30F3"
+      - "\uBAA8\uD638\uD06C"
+      - "\u9A6C\u514B\u65AF\u53D1\u578B"
+      - "\u99AC\u514B\u65AF\u9AEE\u578B"
+      - "Cr\xEAte iroquoise"
+      - Cresta mohicana
+      - Cresta mohicana
+      - Irokesenschnitt
+      - "Mohikan sa\xE7 modeli"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_FutureHelmet
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u0441\u0442\u0440\u043E\u0448\u043B\u0435\u043C"
+      - "\u0410\u0441\u0442\u0440\u043E\u0448\u043B\u0435\u043C"
+      - Topi astro
+      - Helm astro
+      - Capacete astro
+      - Kask astro
+      - "\u30A2\u30B9\u30C8\u30ED\u30D8\u30EB\u30E1\u30C3\u30C8"
+      - "\uC6B0\uC8FC \uD5EC\uBA67"
+      - "\u592A\u7A7A\u5934\u76D4"
+      - "\u592A\u7A7A\u982D\u76D4"
+      - Casque astro
+      - Casco astro
+      - "Casco astron\xE1utico"
+      - Astrohelm
+      - "Astro kask\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_VikingHelmet
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0428\u043B\u0435\u043C \u0432\u0438\u043A\u0438\u043D\u0433\u0430"
+      - Viking helmet
+      - Topeng Viking
+      - Helm Viking
+      - Capacete viking
+      - "He\u0142m wikinga"
+      - "\u30D0\u30A4\u30AD\u30F3\u30B0\u306E\u515C"
+      - "\uBC14\uC774\uD0B9 \uD5EC\uBA67"
+      - "\u7EF4\u4EAC\u5934\u76D4"
+      - "\u7DAD\u4EAC\u982D\u76D4"
+      - Casque viking
+      - Elmo vichingo
+      - Casco vikingo
+      - Wikingerhelm
+      - "Viking mi\u011Fferi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_SamuraiHelmet
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0430\u043C\u0443\u0440\u0430\u0439\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C"
+      - Samurai helmet
+      - Tanduk samurai
+      - Helm samurai
+      - Capacete samurai
+      - "He\u0142m samuraja"
+      - "\u4F8D\u306E\u515C"
+      - "\uC0AC\uBB34\uB77C\uC774 \uD5EC\uBA67"
+      - "\u6B66\u58EB\u5934\u76D4"
+      - "\u6B66\u58EB\u982D\u76D4"
+      - "Casque de samoura\xEF"
+      - Elmo da samurai
+      - "Casco de samur\xE1i"
+      - Samuraihelm
+      - "Samuray mi\u011Fferi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Jester
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0428\u043B\u044F\u043F\u0430 \u0448\u0443\u0442\u0430"
+      - Jester's hat
+      - Topi pelawak
+      - Topi badut
+      - "Chap\xE9u de bobo da corte"
+      - "Kapelusz b\u0142azna"
+      - "\u30B8\u30A7\u30B9\u30BF\u30FC\u30CF\u30C3\u30C8"
+      - "\uC5B4\uB9BF\uAD11\uB300 \uBAA8\uC790"
+      - "\u5C0F\u4E11\u5E3D\u5B50"
+      - "\u5C0F\u4E11\u5E3D\u5B50"
+      - Chapeau de fou du roi
+      - Cappello da buffone
+      - "Sombrero de buf\xF3n"
+      - Narrenhut
+      - "\u015Eakac\u0131 \u015Fapkas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Bezel
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0423\u0441\u0438\u043A\u0438 \u0436\u0443\u043A\u0430"
+      - Beetle antennae
+      - Antena kumbang
+      - Antena kumbang
+      - Antenas de besouro
+      - "Czu\u0142ki chrz\u0105szcza"
+      - "\u30AB\u30D6\u30C8\u30E0\u30B7\u306E\u89E6\u89D2"
+      - "\uB531\uC815\uBC8C\uB808 \uC548\uD14C\uB098"
+      - "\u7532\u866B\u89E6\u89D2"
+      - "\u7532\u87F2\u89F8\u89D2"
+      - "Antennes de scarab\xE9e"
+      - Antenne di scarabeo
+      - Antenas de escarabajo
+      - "K\xE4ferantennen"
+      - "B\xF6cek antenleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_CatEars
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0448\u0430\u0447\u044C\u0438 \u0443\u0448\u043A\u0438"
+      - Cat ears
+      - Telinga kucing
+      - Telinga kucing
+      - Orelhas de gato
+      - Uszy kota
+      - "\u732B\u306E\u8033"
+      - "\uACE0\uC591\uC774 \uADC0"
+      - "\u732B\u8033\u6735"
+      - "\u8C93\u8033\u6735"
+      - Oreilles de chat
+      - Orecchie da gatto
+      - Orejas de gato
+      - Katzenohren
+      - "Kedi kulaklar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_DoubleBump
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0430\u0441\u043D\u044B\u0435 \u0448\u0438\u0448\u043A\u0438"
+      - Pigtails
+      - Kepang
+      - Kuncir
+      - Rabo de cavalo
+      - Kucyki
+      - "\u304A\u3055\u3052"
+      - "\uC30D\uAF2C\uB9AC"
+      - "\u8FAB\u5B50"
+      - "\u8FAE\u5B50"
+      - Couettes rouges
+      - Codini
+      - Coletas
+      - "Z\xF6pfe"
+      - "\u0130ki \xF6rg\xFC sa\xE7 modeli"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Undercut
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u043D\u0434\u0435\u0440\u043A\u0430\u0442"
+      - Undercut
+      - Rambut bawah potong
+      - Undercut
+      - Undercut
+      - Undercut
+      - "\u30A2\u30F3\u30C0\u30FC\u30AB\u30C3\u30C8"
+      - "\uC5B8\uB354\uCEF7"
+      - "\u5243\u9876"
+      - "\u5243\u9802"
+      - Undercut
+      - Undercut
+      - Undercut
+      - Undercut
+      - Undercut
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_CombHaircut
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u043E\u043B\u043E\u0441\u044B \u0441 \u0443\u043A\u043B\u0430\u0434\u043A\u043E\u0439"
+      - Styled hair
+      - Rambut bergaya
+      - Rambut dengan gaya
+      - Cabelo estilizado
+      - "W\u0142osy z fryzur\u0105"
+      - "\u30B9\u30BF\u30A4\u30EA\u30F3\u30B0\u3055\u308C\u305F\u9AEA"
+      - "\uC2A4\uD0C0\uC77C\uB9C1\uB41C \uBA38\uB9AC"
+      - "\u6253\u9020\u53D1\u578B"
+      - "\u6253\u9020\u9AEE\u578B"
+      - "Cheveux stylis\xE9s"
+      - Capelli stilizzati
+      - Cabello estilizado
+      - Gestylte Haare
+      - "\u015Eekillendirilmi\u015F sa\xE7lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_GirlBob
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u043E\u0437\u043E\u0432\u044B\u0435 \u0432\u043E\u043B\u043E\u0441\u044B"
+      - Pink hair
+      - Rambut pink
+      - Rambut merah muda
+      - Cabelo rosa
+      - "R\xF3\u017Cowe w\u0142osy"
+      - "\u30D4\u30F3\u30AF\u306E\u9AEA\u8272"
+      - "\uD551\uD06C\uBA38\uB9AC"
+      - "\u7C89\u8272\u5934\u53D1"
+      - "\u7C89\u8272\u982D\u9AEE"
+      - Cheveux roses
+      - Capelli rosa
+      - Cabello rosa
+      - Rosa Haare
+      - "Pembe sa\xE7lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_dreads
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0440\u0435\u0434\u044B"
+      - Dreadlocks
+      - Rambut dreadlock
+      - Rambut gimbal
+      - Dreads
+      - Dredy
+      - "\u30C9\u30EC\u30C3\u30C9\u30ED\u30C3\u30AF\u30B9"
+      - "\uB4DC\uB808\uB4DC\uB77D"
+      - "\u957F\u53D1\u7F16\u8FAB\u5B50"
+      - "\u9577\u9AEE\u7DE8\u8FAE\u5B50"
+      - Dreadlocks
+      - Dreadlocks
+      - Rastas
+      - Dreadlocks
+      - Dredlocklar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_rick
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0435\u0437\u0443\u043C\u043D\u044B\u0439 \u0443\u0447\u0435\u043D\u044B\u0439"
+      - Mad scientist
+      - Ahli sains gila
+      - Ilmuwan gila
+      - Cientista louco
+      - Szalony naukowiec
+      - "\u72C2\u6C17\u306E\u79D1\u5B66\u8005"
+      - "\uBBF8\uCE5C \uACFC\uD559\uC790"
+      - "\u75AF\u72C2\u79D1\u5B66\u5BB6"
+      - "\u760B\u72C2\u79D1\u5B78\u5BB6"
+      - Scientifique fou
+      - Scienziato pazzo
+      - "Cient\xEDfico loco"
+      - "Verr\xFCckter Wissenschaftler"
+      - "\xC7\u0131lg\u0131n bilim insan\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_ClassicBob
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0430\u0440\u0435"
+      - Bob cut
+      - Potongan rambut bob
+      - Potongan rambut bob
+      - Corte bob
+      - Fryzura bob
+      - "\u30DC\u30D6\u30AB\u30C3\u30C8"
+      - "\uBC25 \uCEF7"
+      - "\u6CE2\u6CE2\u5934"
+      - "\u6CE2\u6CE2\u982D"
+      - "Coupe au carr\xE9"
+      - Taglio a caschetto
+      - Corte bob
+      - Bob-Frisur
+      - "K\u0131sa sa\xE7 kesimi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_ShavedTemple
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0440\u0438\u0442\u044B\u0439 \u0432\u0438\u0441\u043E\u043A"
+      - Shaved temple
+      - Tapak rambut dicukur
+      - Dahi yang dicukur
+      - "T\xEAmpora raspada"
+      - "Ogolona skro\u0144"
+      - "\u5243\u308A\u8FBC\u307F"
+      - "\uC774\uB9C8 \uBA74\uB3C4"
+      - "\u5149\u5934\u592A\u9633\u7A74"
+      - "\u5149\u982D\u592A\u967D\u7A74"
+      - "Tempe ras\xE9e"
+      - Tempia rasata
+      - Sien rapada
+      - "Rasierter Schl\xE4fenbereich"
+      - "T\u0131ra\u015Fl\u0131 \u015Fakak"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_StraightBob
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u044F\u043C\u043E\u0435 \u041A\u0430\u0440\u0435"
+      - Straight bob
+      - Potongan rambut lurus bob
+      - Potongan rambut bob lurus
+      - Corte bob reto
+      - Proste bob
+      - "\u30B9\u30C8\u30EC\u30FC\u30C8\u30DC\u30D6"
+      - "\uC2A4\uD2B8\uB808\uC774\uD2B8 \uBC25"
+      - "\u76F4\u53D1\u6CE2\u6CE2\u5934"
+      - "\u76F4\u9AEE\u6CE2\u6CE2\u982D"
+      - "Carr\xE9 droit"
+      - Bob dritto
+      - Corte bob recto
+      - Gerader Bob
+      - "D\xFCz bob"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Aviator
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u0432\u0438\u0430\u0442\u043E\u0440"
+      - Aviator
+      - Penerbang
+      - Penerbang
+      - Aviador
+      - Lotnik
+      - "\u30D1\u30A4\u30ED\u30C3\u30C8"
+      - "\uBE44\uD589\uC0AC"
+      - "\u98DE\u884C\u5458"
+      - "\u98DB\u884C\u54E1"
+      - Aviateur
+      - Aviatore
+      - Aviador
+      - Pilot
+      - Pilot
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Bows
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043E\u043B\u0443\u0431\u044B\u0435 \u0432\u043E\u043B\u043E\u0441\u044B"
+      - Blue hair
+      - Rambut biru
+      - Rambut biru
+      - Cabelo azul
+      - "Niebieskie w\u0142osy"
+      - "\u9752\u9AEA"
+      - "\uD30C\uB780 \uBA38\uB9AC"
+      - "\u84DD\u8272\u5934\u53D1"
+      - "\u85CD\u8272\u982D\u9AEE"
+      - Cheveux bleus
+      - Capelli blu
+      - Cabello azul
+      - Blaue Haare
+      - "Mavi sa\xE7lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Anna
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u0438\u0447\u0435\u0441\u043A\u0430 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u044B"
+      - Princess hairstyle
+      - Gaya rambut puteri
+      - Gaya rambut putri
+      - Penteado de princesa
+      - "Fryzura ksi\u0119\u017Cniczki"
+      - "\u30D7\u30EA\u30F3\u30BB\u30B9\u30D8\u30A2\u30B9\u30BF\u30A4\u30EB"
+      - "\uACF5\uC8FC \uBA38\uB9AC\uC2A4\uD0C0\uC77C"
+      - "\u516C\u4E3B\u53D1\u578B"
+      - "\u516C\u4E3B\u9AEE\u578B"
+      - Coiffure de princesse
+      - Acconciatura da principessa
+      - Peinado de princesa
+      - Prinzessinnenfrisur
+      - "Prenses sa\xE7 modeli"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Afro
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u0444\u0440\u043E"
+      - Afro
+      - Afro
+      - Afro
+      - Afro
+      - Afro
+      - "\u30A2\u30D5\u30ED"
+      - "\uC544\uD504\uB85C"
+      - "\u975E\u6D32\u5F0F\u5934\u53D1"
+      - "\u975E\u6D32\u5F0F\u982D\u9AEE"
+      - Afro
+      - Afro
+      - Afro
+      - Afro
+      - "Afro sa\xE7\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_Egyptian
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0415\u0433\u0438\u043F\u0435\u0442\u0441\u043A\u0430\u044F \u043F\u0440\u0438\u0447\u0435\u0441\u043A\u0430"
+      - Egyptian hairstyle
+      - Gaya rambut Mesir
+      - Gaya rambut Mesir
+      - "Penteado eg\xEDpcio"
+      - Egipska fryzura
+      - "\u30A8\u30B8\u30D7\u30C8\u98A8\u30D8\u30A2\u30B9\u30BF\u30A4\u30EB"
+      - "\uC774\uC9D1\uD2B8\uC2DD \uD5E4\uC5B4\uC2A4\uD0C0\uC77C"
+      - "\u57C3\u53CA\u53D1\u578B"
+      - "\u57C3\u53CA\u9AEE\u578B"
+      - "Coiffure \xE9gyptienne"
+      - Acconciatura egiziana
+      - Peinado egipcio
+      - "\xC4gyptische Frisur"
+      - "M\u0131s\u0131r sa\xE7 modeli"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_TwinPonytail
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0432\u043E\u0439\u043D\u043E\u0439 \u0445\u0432\u043E\u0441\u0442\u0438\u043A"
+      - Double ponytail
+      - Kuncir dua
+      - Kuncir dua
+      - Rabo de cavalo duplo
+      - "Podw\xF3jny kucyk"
+      - "\u30C0\u30D6\u30EB\u30DD\u30CB\u30FC\u30C6\u30FC\u30EB"
+      - "\uC774\uC911 \uD3EC\uB2C8\uD14C\uC77C"
+      - "\u53CC\u9A6C\u5C3E\u8FAB"
+      - "\u96D9\u99AC\u5C3E\u8FAE"
+      - Double queue de cheval
+      - Doppia coda di cavallo
+      - Doble coleta
+      - Doppelter Pferdeschwanz
+      - "\xC7ift at kuyru\u011Fu"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_ponytail
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u043E\u0437\u043E\u0432\u044B\u0439 \u0445\u0432\u043E\u0441\u0442\u0438\u043A"
+      - Pink ponytail
+      - Kuncir pink
+      - Kuncir pink
+      - Rabo de cavalo rosa
+      - "R\xF3\u017Cowy kucyk"
+      - "\u30D4\u30F3\u30AF\u306E\u30DD\u30CB\u30FC\u30C6\u30FC\u30EB"
+      - "\uD551\uD06C\uC0C9 \uD3EC\uB2C8\uD14C\uC77C"
+      - "\u7C89\u8272\u9A6C\u5C3E\u8FAB"
+      - "\u7C89\u8272\u99AC\u5C3E\u8FAE"
+      - Queue de cheval rose
+      - Coda di cavallo rosa
+      - Cola de caballo rosa
+      - Rosa Pferdeschwanz
+      - "Pembe at kuyru\u011Fu"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_zizi
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0438\u0437\u0438 \u043A\u043E\u0441\u0438\u0447\u043A\u0438"
+      - Zizi pigtails
+      - Rambut kuncir Zizi
+      - Rambut kuncir Zizi
+      - "Tran\xE7as Zizi"
+      - Warkoczyki Zizi
+      - "\u30B8\u30B8\u306E\u304A\u3055\u3052 "
+      - "\uC9C0\uC9C0 \uC30D\uAF2C\uB9AC"
+      - "\u5B50\u5B50\u8FAB"
+      - "\u5B50\u5B50\u8FAE"
+      - Tresses Zizi
+      - Trecce Zizi
+      - Trenzas Zizi
+      - "Zizi-Z\xF6pfe"
+      - "Zizi \xF6rg\xFCleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_cap_chub
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0427\u0443\u0431"
+      - Mohawk
+      - Rambut berdiri
+      - Rambut mohawk
+      - Moicano
+      - Irokez
+      - "\u30E2\u30D2\u30AB\u30F3"
+      - "\uBAA8\uD638\uD06C"
+      - "\u83AB\u897F\u5E72\u53D1\u578B"
+      - "\u83AB\u897F\u5E72\u9AEE\u578B"
+      - "Cr\xEAte"
+      - Cresta
+      - Moicano
+      - Irokesenschnitt
+      - "Mohawk sa\xE7 modeli"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Biker
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u0439\u043A\u0435\u0440\u0441\u043A\u0438\u0435 \u0431\u043E\u0442\u0438\u043D\u043A\u0438"
+      - Biker boots
+      - Kasut bot penunggang motosikal
+      - Sepatu motor biker
+      - Botas de motociclista
+      - Buty motocyklowe
+      - "\u30D0\u30A4\u30AB\u30FC\u30D6\u30FC\u30C4"
+      - "\uBC14\uC774\uCEE4 \uBD80\uCE20"
+      - "\u9A91\u884C\u9774"
+      - "\u9A0E\u884C\u9774"
+      - Bottes de motard
+      - Stivali da motociclista
+      - Botas de motociclista
+      - Bikerstiefel
+      - "Motosiklet botlar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Sneakers
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0435\u043B\u044B\u0435 \u043A\u0440\u043E\u0441\u0441\u043E\u0432\u043A\u0438"
+      - White sneakers
+      - Kasut sukan putih
+      - Sepatu sneakers putih
+      - "T\xEAnis branco"
+      - "Bia\u0142e trampki"
+      - "\u30DB\u30EF\u30A4\u30C8\u30B9\u30CB\u30FC\u30AB\u30FC"
+      - "\uD654\uC774\uD2B8 \uC2A4\uB2C8\uCEE4\uC988"
+      - "\u767D\u8272\u8FD0\u52A8\u978B"
+      - "\u767D\u8272\u904B\u52D5\u978B"
+      - Baskets blanches
+      - Sneakers bianche
+      - Zapatillas blancas
+      - "Wei\xDFe Sneaker"
+      - "Beyaz spor ayakkab\u0131lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_FlipFlops
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0428\u043B\u0435\u043F\u043A\u0438"
+      - Flip-flops
+      - Selipar jepun
+      - Sendal jepit
+      - Chinelos
+      - Klapki
+      - "\u30D5\u30EA\u30C3\u30D7\u30D5\u30ED\u30C3\u30D7"
+      - "\uD50C\uB9BD\uD50C\uB78D"
+      - "\u62D6\u978B"
+      - "\u62D6\u978B"
+      - Tongs
+      - Infradito
+      - Chanclas
+      - Flip-Flops
+      - Terlikler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Jet
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0435\u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0435 \u0431\u043E\u0442\u0438\u043D\u043A\u0438"
+      - Jet boots
+      - Kasut jet
+      - Sepatu jet
+      - Botas a jato
+      - Buty odrzutowe
+      - "\u30B8\u30A7\u30C3\u30C8\u30D6\u30FC\u30C4"
+      - "\uC81C\uD2B8 \uBD80\uCE20"
+      - "\u55B7\u5C04\u9774"
+      - "\u5674\u5C04\u9774"
+      - "Bottes \xE0 r\xE9action"
+      - Stivali a getto
+      - "Botas a reacci\xF3n"
+      - Jetstiefel
+      - "Jet botlar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_BalletFlat
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u043B\u0435\u0442\u043A\u0438"
+      - Ballet flats
+      - Flat balet
+      - Sepatu ballet datar
+      - "Sapatilhas de bal\xE9"
+      - Baletki
+      - "\u30D0\u30EC\u30A8\u30D5\u30E9\u30C3\u30C8"
+      - "\uBC1C\uB808 \uD50C\uB7AB"
+      - "\u82AD\u857E\u821E\u978B"
+      - "\u82AD\u857E\u821E\u978B"
+      - Ballerines
+      - Ballerine
+      - Bailarinas
+      - Ballerinas
+      - "Bale ayakkab\u0131lar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Cowboy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0432\u0431\u043E\u0439\u0441\u043A\u0438\u0435 \u0441\u0430\u043F\u043E\u0433\u0438"
+      - Cowboy boots
+      - Stokin koboi
+      - Sepatu koboi
+      - Botas de cowboy
+      - Kowbojskie buty
+      - "\u30AB\u30A6\u30DC\u30FC\u30A4\u30D6\u30FC\u30C4"
+      - "\uCE74\uC6B0\uBCF4\uC774 \uBD80\uCE20"
+      - "\u725B\u4ED4\u9774"
+      - "\u725B\u4ED4\u9774"
+      - Bottes de cowboy
+      - Stivali da cowboy
+      - Botas de vaquero
+      - Cowboystiefel
+      - "Kovboy \xE7izmeleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Pirate
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0438\u0440\u0430\u0442\u0441\u043A\u0438\u0435 \u0441\u0430\u043F\u043E\u0433\u0438"
+      - Pirate boots
+      - But kasut lanun
+      - Sepatu bajak laut
+      - Botas de pirata
+      - Buty pirackie
+      - "\u6D77\u8CCA\u30D6\u30FC\u30C4"
+      - "\uD574\uC801 \uBD80\uCE20"
+      - "\u6D77\u76D7\u9774"
+      - "\u6D77\u76DC\u9774"
+      - Bottes de pirate
+      - Stivali da pirata
+      - Botas de pirata
+      - Piratenstiefel
+      - "Korsan \xE7izmeleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Keds
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0430\u0441\u043D\u044B\u0435 \u043A\u0435\u0434\u044B"
+      - Red sneakers
+      - "Sneaker merah\r"
+      - Sneaker merah
+      - "T\xEAnis vermelhos"
+      - Czerwone trampki
+      - "\u8D64\u3044\u30B9\u30CB\u30FC\u30AB\u30FC"
+      - "\uBE68\uAC04\uC0C9 \uC2A4\uB2C8\uCEE4\uC988"
+      - "\u7EA2\u8272\u8FD0\u52A8\u978B"
+      - "\u7D05\u8272\u904B\u52D5\u978B"
+      - Baskets rouges
+      - Sneakers rosse
+      - Zapatillas rojas
+      - Rote Sneaker
+      - "K\u0131rm\u0131z\u0131 spor ayakkab\u0131lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Wellington
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0435\u0437\u0438\u043D\u043E\u0432\u044B\u0435 \u0441\u0430\u043F\u043E\u0433\u0438"
+      - Rubber boots
+      - Bot getah
+      - Sepatu karet
+      - Botas de borracha
+      - Kalosze
+      - "\u30B4\u30E0\u9577\u9774"
+      - "\uACE0\uBB34 \uC7A5\uD654"
+      - "\u6A61\u80F6\u9774"
+      - "\u6A61\u81A0\u9774"
+      - Bottes en caoutchouc
+      - Stivali di gomma
+      - Botas de goma
+      - Gummistiefel
+      - "Lastik \xE7izmeler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Clown
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043B\u043E\u0443\u043D\u0441\u043A\u0438\u0435 \u0431\u043E\u0442\u0438\u043D\u043A\u0438"
+      - Clown shoes
+      - Kasut badut
+      - Sepatu badut
+      - "Sapatos de palha\xE7o"
+      - Buty klauna
+      - "\u30AF\u30E9\u30A6\u30F3\u30B7\u30E5\u30FC\u30BA"
+      - "\uD074\uB77C\uC6B4 \uC2E0\uBC1C"
+      - "\u5C0F\u4E11\u978B"
+      - "\u5C0F\u4E11\u978B"
+      - Chaussures de clown
+      - Scarpe da clown
+      - Zapatos de payaso
+      - Clownschuhe
+      - "Palya\xE7o ayakkab\u0131lar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Oxford
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0422\u0443\u0444\u043B\u0438"
+      - Shoes
+      - Kasut
+      - Sepatu
+      - Sapatos
+      - Buty
+      - "\u9774"
+      - "\uC2E0\uBC1C"
+      - "\u978B\u5B50"
+      - "\u978B\u5B50"
+      - Chaussures
+      - Scarpe
+      - Zapatos
+      - Schuhe
+      - "Ayakkab\u0131lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Viking
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0430\u043F\u043E\u0433\u0438 \u0432\u0438\u043A\u0438\u043D\u0433\u043E\u0432"
+      - Viking boots
+      - Bot Viking
+      - Sepatu Viking
+      - Botas vikings
+      - "Buty wiking\xF3w"
+      - "\u30D0\u30A4\u30AD\u30F3\u30B0\u306E\u30D6\u30FC\u30C4"
+      - "\uBC14\uC774\uD0B9 \uBD80\uCE20"
+      - "\u7EF4\u4EAC\u4EBA\u7684\u9774\u5B50"
+      - "\u7DAD\u4EAC\u4EBA\u7684\u9774\u5B50"
+      - Bottes vikings
+      - Stivali vichinghi
+      - Botas vikingas
+      - Wikingerstiefel
+      - "Viking \xE7izmeleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Knight
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u044B\u0446\u0430\u0440\u0441\u043A\u0438\u0435 \u0441\u0430\u043F\u043E\u0433\u0438"
+      - Knight boots
+      - Bot kesatria
+      - Sepatu ksatria
+      - Botas de cavaleiro
+      - Buty rycerskie
+      - "\u30CA\u30A4\u30C8\u30D6\u30FC\u30C4"
+      - "\uAE30\uC0AC \uBD80\uCE20"
+      - "\u9A91\u58EB\u9774"
+      - "\u9A0E\u58EB\u9774"
+      - Bottes de chevalier
+      - Stivali da cavaliere
+      - Botas de caballero
+      - Ritterstiefel
+      - "\u015E\xF6valye \xE7izmeleri"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Superhero
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0443\u043F\u0435\u0440\u0433\u0435\u0440\u043E\u0439\u0441\u043A\u0438\u0435
+        \u0431\u043E\u0442\u0438\u043D\u043A\u0438"
+      - Superhero boots
+      - Bot superhero
+      - Sepatu superhero
+      - "Botas de super-her\xF3i"
+      - Buty superbohatera
+      - "\u30B9\u30FC\u30D1\u30FC\u30D2\u30FC\u30ED\u30FC\u30D6\u30FC\u30C4"
+      - "\uC288\uD37C\uD788\uC5B4\uB85C \uBD80\uCE20"
+      - "\u8D85\u7EA7\u82F1\u96C4\u9774\u5B50"
+      - "\u8D85\u7D1A\u82F1\u96C4\u9774\u5B50"
+      - "Bottes de super-h\xE9ros"
+      - Stivali da supereroe
+      - "Botas de superh\xE9roe"
+      - Superhelden-Stiefel
+      - "S\xFCper kahraman botlar\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_HermesSandals
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u0440\u0435\u0447\u0435\u0441\u043A\u0438\u0435 \u0441\u0430\u043D\u0434\u0430\u043B\u0438\u0438"
+      - Greek sandals
+      - Sandal Greek
+      - Sandal Yunani
+      - "Sand\xE1lias gregas"
+      - "Greckie sanda\u0142y"
+      - "\u30AE\u30EA\u30B7\u30E3\u306E\u30B5\u30F3\u30C0\u30EB"
+      - "\uADF8\uB9AC\uC2A4 \uC0CC\uB4E4"
+      - "\u5E0C\u814A\u51C9\u978B"
+      - "\u5E0C\u81D8\u6DBC\u978B"
+      - Sandales grecques
+      - Sandali greci
+      - Sandalias griegas
+      - Griechische Sandalen
+      - Yunan sandaletleri
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Converse
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0435\u0440\u044B\u0435 \u043A\u0435\u0434\u044B"
+      - Grey sneakers
+      - Sneaker kelabu
+      - Sneaker abu-abu
+      - "T\xEAnis cinza"
+      - Szare trampki
+      - "\u30B0\u30EC\u30FC\u306E\u30B9\u30CB\u30FC\u30AB\u30FC"
+      - "\uD68C\uC0C9 \uC2A4\uB2C8\uCEE4\uC988"
+      - "\u7070\u8272\u8FD0\u52A8\u978B"
+      - "\u7070\u8272\u904B\u52D5\u978B"
+      - Baskets grises
+      - Sneakers grigie
+      - Zapatillas grises
+      - Graue Sneaker
+      - "Gri spor ayakkab\u0131lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_ClassicSandals
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0430\u043D\u0434\u0430\u043B\u0438\u0438"
+      - Sandals
+      - Sandal
+      - Sandal
+      - "Sand\xE1lias"
+      - "Sanda\u0142y"
+      - "\u30B5\u30F3\u30C0\u30EB"
+      - "\uC0CC\uB4E4"
+      - "\u51C9\u978B"
+      - "\u6DBC\u978B"
+      - Sandales
+      - Sandali
+      - Sandalias
+      - Sandalen
+      - Sandaletler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Moccasins
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u043E\u043A\u0430\u0441\u0438\u043D\u044B"
+      - Moccasins
+      - Mokasin
+      - Mokasins
+      - Mocassins
+      - Mokasyny
+      - "\u30E2\u30AB\u30B7\u30F3"
+      - "\uBAA8\uCE74\uC2E0"
+      - "\u9E7F\u76AE\u978B"
+      - "\u9E7F\u76AE\u978B"
+      - Mocassins
+      - Mocassini
+      - Mocasines
+      - Mokassins
+      - Mokasinler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Crocs
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u043E\u043A\u0441\u044B"
+      - Crocs
+      - Crocs
+      - Crocs
+      - Crocs
+      - Crocsy
+      - "\u30AF\u30ED\u30C3\u30AF\u30B9"
+      - "\uD06C\uB85D\uC2A4"
+      - "\u5361\u9A86\u9A70"
+      - "\u5361\u99F1\u99B3"
+      - Crocs
+      - Crocs
+      - Crocs
+      - Crocs
+      - Crocs
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_Slipons
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043B\u0438\u043F\u043E\u043D\u044B"
+      - Slip-ons
+      - Slip-on
+      - Slip-on
+      - Slip-on
+      - Slip-on
+      - "\u30B9\u30EA\u30C3\u30DD\u30F3"
+      - "\uC2AC\uB9BD\uC628"
+      - "\u4FBF\u978B"
+      - "\u4FBF\u978B"
+      - Slip-on
+      - Slip-on
+      - Slip-on
+      - Slip-on
+      - Slip-on
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_closet_shoes_PeterPen
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u0435\u0442\u0443\u0447\u0438\u0435 \u0441\u0430\u043F\u043E\u0433\u0438"
+      - Flying boots
+      - Bot terbang
+      - Sepatu terbang
+      - Botas voadoras
+      - "Lataj\u0105ce buty"
+      - "\u98DB\u3073\u9774"
+      - "\uB0A0\uC544\uB2E4\uB2C8\uB294 \uBD80\uCE20"
+      - "\u98DE\u884C\u9774"
+      - "\u98DB\u884C\u9774"
+      - Bottes volantes
+      - Stivali volanti
+      - Botas voladoras
+      - Fliegende Stiefel
+      - "U\xE7an botlar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_reward_offer
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438 \u0440\u0435\u043A\u043B\u0430\u043C\u0443
+        \u0438 \u043F\u043E\u043B\u0443\u0447\u0438 \u044D\u0442\u043E!"
+      - Watch the ad and get this!
+      - Tonton iklan ini dan dapatkan ini!
+      - Tonton iklan dan dapatkan ini!
+      - "Assista ao an\xFAncio e ganhe isso!"
+      - "Obejrzyj reklam\u0119 i zdob\u0105d\u017A to!"
+      - "\u5E83\u544A\u3092\u898B\u3066\u3001\u3053\u308C\u3092\u624B\u306B\u5165\u308C\u3088\u3046\uFF01"
+      - "\uAD11\uACE0\uB97C \uBCF4\uACE0 \uC774\uAC83\uC744 \uBC1B\uC73C\uC138\uC694!"
+      - "\u89C2\u770B\u5E7F\u544A\u5E76\u83B7\u53D6\u8FD9\u4E2A\uFF01"
+      - "\u89C0\u770B\u5EE3\u544A\u4E26\u7372\u53D6\u9019\u500B\uFF01"
+      - "Regardez la publicit\xE9 et obtenez ceci!"
+      - "Guarda la pubblicit\xE0 e ottieni questo!"
+      - "\xA1Mira el anuncio y consigue esto!"
+      - Schau dir die Werbung an und hol dir das!
+      - "Reklam\u0131 izle ve bunu elde et!"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_reward_offer_header
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043F\u0435\u0446\u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
+      - Special offer
+      - Tawaran istimewa
+      - Penawaran khusus
+      - Oferta especial
+      - Specjalna oferta
+      - "\u7279\u5225\u30AA\u30D5\u30A1\u30FC"
+      - "\uD2B9\uBCC4 \uC81C\uC548"
+      - "\u7279\u522B\u4F18\u60E0"
+      - "\u7279\u5225\u512A\u60E0"
+      - "Offre sp\xE9ciale"
+      - Offerta speciale
+      - Oferta especial
+      - Sonderangebot
+      - "\xD6zel teklif"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_choose_colour
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u0446\u0432\u0435\u0442 \u0434\u043B\u044F
+        \u0441\u043B\u0430\u0439\u043C\u0430"
+      - Choose a color for the slime
+      - Pilih warna untuk slime
+      - Pilih warna untuk slime
+      - Escolha uma cor para o slime
+      - Wybierz kolor dla slime'a
+      - "\u30B9\u30E9\u30A4\u30E0\u306E\u8272\u3092\u9078\u3076"
+      - "\uC2AC\uB77C\uC784 \uC0C9\uC0C1 \uC120\uD0DD"
+      - "\u4E3A\u9ECF\u6DB2\u9009\u62E9\u989C\u8272"
+      - "\u70BA\u9ECF\u6DB2\u9078\u64C7\u984F\u8272"
+      - Choisissez une couleur pour le slime
+      - Scegli un colore per lo slime
+      - Elige un color para el slime
+      - "W\xE4hle eine Farbe f\xFCr den Schleim"
+      - "Slime i\xE7in bir renk se\xE7in"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_mix_the_paint
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0446\u0432\u0435\u0442 \u0432 \u0441\u043B\u0430\u0439\u043C"
+      - Add color to the slime
+      - Tambahkan warna ke dalam slime
+      - Tambahkan warna ke slime
+      - Adicione cor ao slime
+      - Dodaj kolor do slime'a
+      - "\u30B9\u30E9\u30A4\u30E0\u306B\u8272\u3092\u8FFD\u52A0\u3059\u308B"
+      - "\uC2AC\uB77C\uC784\uC5D0 \uC0C9\uC0C1 \uCD94\uAC00"
+      - "\u5411\u9ECF\u6DB2\u4E2D\u6DFB\u52A0\u989C\u8272"
+      - "\u5411\u9ECF\u6DB2\u4E2D\u6DFB\u52A0\u984F\u8272"
+      - Ajoutez de la couleur au slime
+      - Aggiungi colore allo slime
+      - "A\xF1ade color al slime"
+      - "F\xFCge Farbe zum Schleim hinzu"
+      - Slime'a renk ekle
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_create_slime
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043E\u0437\u0434\u0430\u0439 \u0441\u043B\u0430\u0439\u043C"
+      - Create a slime
+      - Buat slime
+      - Buat slime
+      - Crie um slime
+      - "Stw\xF3rz slime'a"
+      - "\u30B9\u30E9\u30A4\u30E0\u3092\u4F5C\u6210\u3059\u308B"
+      - "\uC2AC\uB77C\uC784 \uB9CC\uB4E4\uAE30"
+      - "\u5236\u4F5C\u9ECF\u6DB2"
+      - "\u88FD\u4F5C\u9ECF\u6DB2"
+      - "Cr\xE9ez un slime"
+      - Crea uno slime
+      - Crea un slime
+      - Einen Schleim herstellen
+      - Slime yap
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_choose_basis
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u043E\u0441\u043D\u043E\u0432\u0443
+        \u0434\u043B\u044F \u0441\u043B\u0430\u0439\u043C\u0430"
+      - Choose a base for the slime
+      - "Pol\xEDtica de privacidad"
+      - Pilih dasar untuk slime
+      - Escolha uma base para o slime
+      - "Wybierz baz\u0119 dla slime'a"
+      - "\u30B9\u30E9\u30A4\u30E0\u306E\u30D9\u30FC\u30B9\u3092\u9078\u3076"
+      - "\uC2AC\uB77C\uC784 \uAE30\uCD08 \uC120\uD0DD"
+      - "\u9009\u62E9\u9ECF\u6DB2\u7684\u57FA\u7840"
+      - "\u9078\u64C7\u9ECF\u6DB2\u7684\u57FA\u790E"
+      - Choisissez une base pour le slime
+      - Scegli una base per lo slime
+      - Elige una base para el slime
+      - "W\xE4hle eine Basis f\xFCr den Schleim"
+      - "Slime i\xE7in bir temel se\xE7in"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_created
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u043E\u0442\u043E\u0432\u044B\u0435 \u0441\u043B\u0430\u0439\u043C\u044B"
+      - Ready-made slimes
+      - Slime siap dibuat
+      - Slime jadi
+      - Slimes prontos
+      - Gotowe slime'y
+      - "\u65E2\u88FD\u306E\u30B9\u30E9\u30A4\u30E0"
+      - "\uC900\uBE44\uB41C \uC2AC\uB77C\uC784"
+      - "\u73B0\u6210\u7684\u9ECF\u6DB2"
+      - "\u73FE\u6210\u7684\u9ECF\u6DB2"
+      - "Slimes pr\xEAts \xE0 l'emploi"
+      - Slime pronti all'uso
+      - Slimes listos para usar
+      - Fertige Schleime
+      - "Haz\u0131r slime'lar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_slots
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C \u0441\u043B\u043E\u0442\u044B!"
+      - Out of slots!
+      - Tiada lagi slot!
+      - Slot habis!
+      - "Sem espa\xE7os!"
+      - Brak miejsc!
+      - "\u30B9\u30ED\u30C3\u30C8\u304C\u3042\u308A\u307E\u305B\u3093\uFF01"
+      - "\uC2AC\uB86F\uC774 \uC5C6\uC5B4\uC694!"
+      - "\u6CA1\u6709\u7A7A\u4F4D\u4E86\uFF01"
+      - "\u6C92\u6709\u7A7A\u4F4D\u4E86\uFF01"
+      - Plus de places!
+      - Slot esauriti!
+      - "\xA1Sin espacios!"
+      - "Keine Pl\xE4tze mehr!"
+      - Slotlar bitti!
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_slots_description
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0432\u043E\u0431\u043E\u0434\u043D\u044B\u0435 \u0441\u043B\u043E\u0442\u044B
+        \u0434\u043B\u044F \u0441\u043B\u0430\u0439\u043C\u043E\u0432 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C!
+        \u0427\u0442\u043E\u0431\u044B \u0441\u043E\u0437\u0434\u0430\u0442\u044C
+        \u043D\u043E\u0432\u044B\u0439 \u0441\u043B\u0430\u0439\u043C, \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438
+        \u0441\u043B\u043E\u0442!"
+      - Free slots for slimes have run out! To create a new slime, free up a slot!
+      - Slot kosong untuk slime habis! Untuk mencipta slime baru, kosongkan slot!
+      - Slot kosong untuk slime habis! Untuk membuat slime baru, bebaskan slot!
+      - "Acabaram os espa\xE7os livres para slimes! Para criar um novo slime, libere
+        um espa\xE7o!"
+      - "Wolne miejsca na slime'y si\u0119 sko\u0144czy\u0142y! Aby stworzy\u0107
+        nowego slime'a, zwolnij miejsce!"
+      - "\u30B9\u30E9\u30A4\u30E0\u7528\u306E\u7A7A\u304D\u30B9\u30ED\u30C3\u30C8\u304C\u306A\u304F\u306A\u308A\u307E\u3057\u305F\uFF01\u65B0\u3057\u3044\u30B9\u30E9\u30A4\u30E0\u3092\u4F5C\u6210\u3059\u308B\u306B\u306F\u3001\u30B9\u30ED\u30C3\u30C8\u3092\u89E3\u653E\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "\uC2AC\uB77C\uC784\uC6A9 \uBE48 \uC2AC\uB86F\uC774 \uBAA8\uB450 \uC18C\uC9C4\uB418\uC5C8\uC2B5\uB2C8\uB2E4!
+        \uC0C8\uB85C\uC6B4 \uC2AC\uB77C\uC784\uC744 \uB9CC\uB4E4\uB824\uBA74 \uC2AC\uB86F\uC744
+        \uBE44\uC6CC\uC8FC\uC138\uC694!"
+      - "\u9ECF\u6DB2\u7684\u7A7A\u4F4D\u5DF2\u7ECF\u7528\u5B8C\uFF01\u8981\u521B\u5EFA\u65B0\u7684\u9ECF\u6DB2\uFF0C\u8BF7\u817E\u51FA\u4E00\u4E2A\u7A7A\u4F4D\uFF01"
+      - "\u9ECF\u6DB2\u7684\u7A7A\u4F4D\u5DF2\u7D93\u7528\u5B8C\uFF01\u8981\u5275\u5EFA\u65B0\u7684\u9ECF\u6DB2\uFF0C\u8ACB\u9A30\u51FA\u4E00\u500B\u7A7A\u4F4D\uFF01"
+      - "Les emplacements libres pour les slimes sont \xE9puis\xE9s ! Pour cr\xE9er
+        un nouveau slime, lib\xE9rez un emplacement !"
+      - Gli slot liberi per gli slime sono esauriti! Per creare un nuovo slime, libera
+        uno slot!
+      - "\xA1Se acabaron los espacios libres para los slimes! Para crear un nuevo
+        slime, libera un espacio!"
+      - "Freie Pl\xE4tze f\xFCr Schleime sind aufgebraucht! Um einen neuen Schleim
+        zu erstellen, mache einen Platz frei!"
+      - "Slime i\xE7in bo\u015F slotlar t\xFCkendi! Yeni bir slime olu\u015Fturmak
+        i\xE7in bir slotu bo\u015Falt\u0131n!"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_ornament
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u0435\u0440\u0438 \u0443\u043A\u0440\u0430\u0448\u0435\u043D\u0438\u0435
+        {0}"
+      - Choose a decoration {0}
+      - Pilih hiasan {0}
+      - Pilih hiasan {0}
+      - "Escolha uma decora\xE7\xE3o {0}"
+      - "Wybierz ozdob\u0119 {0}"
+      - "\u30C7\u30B3\u30EC\u30FC\u30B7\u30E7\u30F3{0}\u3092\u9078\u629E"
+      - "\uC7A5\uC2DD {0} \uC120\uD0DD"
+      - " \u9009\u62E9\u88C5\u9970 {0}"
+      - "\u9078\u64C7\u88DD\u98FE {0}"
+      - "Choisissez une d\xE9coration {0}"
+      - Scegli una decorazione {0}
+      - "Elige una decoraci\xF3n {0}"
+      - "W\xE4hle eine Verzierung {0}"
+      - "S\xFCsleme {0} se\xE7in"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_remake
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0435\u0440\u0435\u0441\u043E\u0437\u0434\u0430\u0442\u044C \u044D\u0442\u043E\u0442
+        \u0441\u043B\u0430\u0439\u043C?"
+      - Recreate this slime?
+      - Cipta semula slime ini?
+      - Buat ulang slime ini?
+      - Recriar este slime?
+      - "Odtworzy\u0107 tego slime'a?"
+      - "\u3053\u306E\u30B9\u30E9\u30A4\u30E0\u3092\u518D\u4F5C\u6210\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uC774 \uC2AC\uB77C\uC784\uC744 \uB2E4\uC2DC \uB9CC\uB4E4\uAE4C\uC694?"
+      - "\u91CD\u65B0\u521B\u5EFA\u8FD9\u4E2A\u9ECF\u6DB2\uFF1F"
+      - "\u91CD\u65B0\u5275\u5EFA\u9019\u500B\u9ECF\u6DB2\uFF1F"
+      - "Recr\xE9er ce slime ?"
+      - Ricreare questo slime?
+      - "\xBFRecrear este slime?"
+      - Diesen Schleim neu erstellen?
+      - "Bu slime'\u0131 yeniden olu\u015Fturmak istiyor musunuz?"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_ornament_add
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0443\u043A\u0440\u0430\u0448\u0435\u043D\u0438\u044F
+        \u0432 \u0441\u043B\u0430\u0439\u043C"
+      - Add decorations to the slime
+      - Tambahkan hiasan ke dalam slime
+      - Tambahkan hiasan ke slime
+      - "Adicione decora\xE7\xF5es ao slime"
+      - Dodaj ozdoby do slime'a
+      - "\u30B9\u30E9\u30A4\u30E0\u306B\u30C7\u30B3\u30EC\u30FC\u30B7\u30E7\u30F3\u3092\u8FFD\u52A0\u3059\u308B"
+      - "\uC2AC\uB77C\uC784\uC5D0 \uC7A5\uC2DD \uCD94\uAC00"
+      - "\u5411\u9ECF\u6DB2\u4E2D\u6DFB\u52A0\u88C5\u9970"
+      - "\u5411\u9ECF\u6DB2\u4E2D\u6DFB\u52A0\u88DD\u98FE"
+      - "Ajoutez des d\xE9corations au slime"
+      - Aggiungi decorazioni allo slime
+      - "A\xF1ade decoraciones al slime"
+      - "F\xFCge dem Schleim Dekorationen hinzu"
+      - "Slime'a s\xFCslemeler ekle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_playing
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0438\u0433\u0440\u0430\u0439 \u0441\u043E \u0441\u043B\u0430\u0439\u043C\u043E\u043C!"
+      - Play with the slime!
+      - Mainkan slime!
+      - Bermain dengan slime!
+      - Brinque com o slime!
+      - "Pobaw si\u0119 slime'em!"
+      - "\u30B9\u30E9\u30A4\u30E0\u3067\u904A\u307C\u3046\uFF01"
+      - "\uC2AC\uB77C\uC784\uC73C\uB85C \uB180\uC544\uC694!"
+      - "\u4E0E\u9ECF\u6DB2\u73A9\u800D\uFF01"
+      - "\u8207\u9ECF\u6DB2\u73A9\u800D\uFF01"
+      - Jouez avec le slime !
+      - Gioca con lo slime!
+      - "\xA1Juega con el slime!"
+      - Spiele mit dem Schleim!
+      - Slime ile oyna!
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_glue
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0431\u0435\u043B\u044B\u0439 \u043A\u043B\u0435\u0439"
+      - Add white glue
+      - Tambahkan gam putih
+      - Tambahkan lem putih
+      - Adicione cola branca
+      - "Dodaj bia\u0142y klej"
+      - "\u767D\u3044\u306E\u308A\u3092\u8FFD\u52A0"
+      - "\uD770\uC0C9 \uD480\uC744 \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u767D\u80F6"
+      - "\u6DFB\u52A0\u767D\u81A0"
+      - Ajoutez de la colle blanche
+      - Aggiungi colla bianca
+      - "A\xF1ade pegamento blanco"
+      - "Wei\xDFen Kleber hinzuf\xFCgen"
+      - Beyaz tutkal ekle
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_glue_clear
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u043F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u044B\u0439
+        \u043A\u043B\u0435\u0439"
+      - Add clear glue
+      - Tambahkan gam jernih
+      - Tambahkan lem bening
+      - Adicione cola transparente
+      - Dodaj przezroczysty klej
+      - "\u900F\u660E\u306E\u308A\u3092\u8FFD\u52A0"
+      - "\uD22C\uBA85 \uC811\uCC29\uC81C\uB97C \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u900F\u660E\u80F6\u6C34"
+      - "\u6DFB\u52A0\u900F\u660E\u81A0\u6C34"
+      - Ajoutez de la colle transparente
+      - Aggiungi colla trasparente
+      - "A\xF1ade pegamento transparente"
+      - "Klaren Kleber hinzuf\xFCgen"
+      - "\u015Eeffaf tutkal ekle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_water
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u043B\u0435\u0439 \u043D\u0435\u043C\u043D\u043E\u0433\u043E
+        \u0432\u043E\u0434\u044B"
+      - Pour a little water
+      - Tambahkan sedikit air
+      - Tuangkan sedikit air
+      - "Despeje um pouco de \xE1gua"
+      - "Nalej troch\u0119 wody"
+      - "\u5C11\u3057\u6C34\u3092\u6CE8\u3050"
+      - "\uC870\uAE08 \uBB3C\uC744 \uBD80\uC5B4\uC8FC\uC138\uC694"
+      - "\u5012\u5165\u4E00\u70B9\u6C34"
+      - "\u5012\u5165\u4E00\u9EDE\u6C34"
+      - Versez un peu d'eau
+      - Versa un po' d'acqua
+      - Vierte un poco de agua
+      - "Gie\xDFen Sie etwas Wasser ein"
+      - "Biraz su d\xF6k\xFCn"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_activator
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0430\u043A\u0442\u0438\u0432\u0430\u0442\u043E\u0440"
+      - Add activator
+      - Tambahkan aktuator
+      - Tambahkan aktivator
+      - Adicione ativador
+      - Dodaj aktywator
+      - "\u30A2\u30AF\u30C6\u30A3\u30D9\u30FC\u30BF\u30FC\u3092\u8FFD\u52A0"
+      - "\uD65C\uC131\uC81C\uB97C \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u6D3B\u5316\u5242"
+      - "\u6DFB\u52A0\u6D3B\u5316\u5291"
+      - Ajoutez un activateur
+      - Aggiungi attivatore
+      - "A\xF1ade activador"
+      - "Aktivator hinzuf\xFCgen"
+      - "Aktivat\xF6r ekle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0431\u043B\u0435\u0441\u0442\u043A\u0438"
+      - Add glitter
+      - Tambahkan glitter
+      - Tambahkan glitter
+      - Adicione glitter
+      - Dodaj brokat
+      - "\u30AD\u30E9\u30AD\u30E9\u3092\u8FFD\u52A0"
+      - "\uBC18\uC9DD\uC774\uB97C \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u4EAE\u7247"
+      - "\u6DFB\u52A0\u4EAE\u7247"
+      - Ajoutez des paillettes
+      - Aggiungi glitter
+      - "A\xF1ade purpurina"
+      - "Glitzer hinzuf\xFCgen"
+      - Sim ekle
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_shaving
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u043F\u0435\u043D\u0443 \u0434\u043B\u044F
+        \u0431\u0440\u0438\u0442\u044C\u044F"
+      - Add shaving foam
+      - Tambahkan busa pencukur
+      - Tambahkan busa cukur
+      - Adicione espuma de barbear
+      - "Dodaj piank\u0119 do golenia"
+      - "\u30B7\u30A7\u30FC\u30D3\u30F3\u30B0\u30D5\u30A9\u30FC\u30E0\u3092\u8FFD\u52A0"
+      - "\uBA74\uB3C4 \uAC70\uD488\uC744 \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u5243\u987B\u6CE1\u6CAB"
+      - "\u6DFB\u52A0\u5243\u9B1A\u6CE1\u6CAB"
+      - "Ajoutez de la mousse \xE0 raser"
+      - Aggiungi schiuma da barba
+      - "A\xF1ade espuma de afeitar"
+      - "Rasierschaum hinzuf\xFCgen"
+      - "T\u0131ra\u015F k\xF6p\xFC\u011F\xFC ekle"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_snow
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u043E\u0431\u0430\u0432\u044C \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+        \u0441\u043D\u0435\u0433"
+      - Add artificial snow
+      - Tambahkan salji tiruan
+      - Tambahkan salju buatan
+      - Adicione neve artificial
+      - "Dodaj sztuczny \u015Bnieg"
+      - "\u4EBA\u5DE5\u96EA\u3092\u8FFD\u52A0"
+      - "\uC778\uACF5 \uB208\uC744 \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624"
+      - "\u6DFB\u52A0\u4EBA\u9020\u96EA"
+      - "\u6DFB\u52A0\u4EBA\u9020\u96EA"
+      - Ajoutez de la neige artificielle
+      - Aggiungi neve artificiale
+      - "A\xF1ade nieve artificial"
+      - "K\xFCnstlichen Schnee hinzuf\xFCgen"
+      - Yapay kar ekle
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_stir
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0435\u0440\u0435\u043C\u0435\u0448\u0430\u0439"
+      - Stir
+      - Kacau
+      - Aduk
+      - Mexa
+      - Zamieszaj
+      - "\u304B\u304D\u6DF7\u305C\u308B"
+      - "\uC11E\uB2E4"
+      - "\u6405\u62CC"
+      - "\u652A\u62CC"
+      - "M\xE9langer"
+      - Mescola
+      - Remover
+      - "Umr\xFChren"
+      - "Kar\u0131\u015Ft\u0131r"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_orange
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D"
+      - Orange
+      - Oren
+      - Jeruk
+      - Laranja
+      - "Pomara\u0144cza"
+      - "\u30AA\u30EC\u30F3\u30B8"
+      - "\uC624\uB80C\uC9C0"
+      - "\u6A59\u5B50"
+      - "\u6A59\u5B50"
+      - Orange
+      - Arancia
+      - Naranja
+      - Orange
+      - Portakal
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_chick
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0426\u044B\u043F\u043B\u0435\u043D\u043E\u043A"
+      - Chicken
+      - Ayam
+      - Ayam
+      - Frango
+      - Kurczak
+      - "\u30C1\u30AD\u30F3"
+      - "\uB2ED\uACE0\uAE30"
+      - "\u9E21\u8089"
+      - "\u96DE\u8089"
+      - Poulet
+      - Pollo
+      - Pollo
+      - Huhn
+      - Tavuk
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_sun
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043E\u043B\u043D\u044B\u0448\u043A\u043E"
+      - Sun
+      - Matahari
+      - Matahari
+      - Sol
+      - "S\u0142o\u0144ce"
+      - "\u592A\u967D"
+      - "\uD0DC\uC591"
+      - "\u592A\u9633"
+      - "\u592A\u967D"
+      - Soleil
+      - Sole
+      - Sol
+      - Sonne
+      - "G\xFCne\u015F"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_alien
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0440\u0438\u0448\u0435\u043B\u0435\u0446"
+      - Alien
+      - Alien
+      - Alien
+      - "Alien\xEDgena"
+      - Obcy
+      - "\u5B87\u5B99\u4EBA"
+      - "\uC678\uACC4\uC778 "
+      - "\u5916\u661F\u4EBA"
+      - "\u5916\u661F\u4EBA"
+      - Extraterrestre
+      - Alieno
+      - Extraterrestre
+      - "Au\xDFerirdischer"
+      - "Uzayl\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_spinach
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0428\u043F\u0438\u043D\u0430\u0442"
+      - Spinach
+      - Bayam
+      - Bayam
+      - Espinafre
+      - Szpinak
+      - "\u307B\u3046\u308C\u3093\u8349"
+      - "\uC2DC\uAE08\uCE58"
+      - "\u83E0\u83DC"
+      - "\u83E0\u83DC"
+      - "\xC9pinard"
+      - Spinaci
+      - Espinaca
+      - Spinat
+      - Ispanak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_apple
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042F\u0431\u043B\u043E\u043A\u043E"
+      - Apple
+      - Epal
+      - Apel
+      - "Ma\xE7\xE3"
+      - "Jab\u0142ko"
+      - "\u308A\u3093\u3054"
+      - "\uC0AC\uACFC"
+      - "\u82F9\u679C"
+      - "\u860B\u679C"
+      - Pomme
+      - Mela
+      - Manzana
+      - Apfel
+      - Elma
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_dino
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0438\u043D\u043E\u0437\u0430\u0432\u0440"
+      - Dinosaur
+      - Dinosaurus
+      - Dinosaurus
+      - Dinossauro
+      - Dinozaur
+      - "\u6050\u7ADC"
+      - "\uACF5\uB8E1"
+      - "\u6050\u9F99"
+      - "\u6050\u9F8D"
+      - Dinosaure
+      - Dinosauro
+      - Dinosaurio
+      - Dinosaurier
+      - Dinozor
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_mint
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u044F\u0442\u0430"
+      - Mint
+      - Pudina
+      - Mint
+      - "Hortel\xE3"
+      - "Mi\u0119ta"
+      - "\u30DF\u30F3\u30C8"
+      - "\uBBFC\uD2B8"
+      - "\u8584\u8377"
+      - "\u8584\u8377"
+      - Menthe
+      - Menta
+      - Menta
+      - Minze
+      - Nane
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_ice
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u044C\u0434\u0438\u043D\u043A\u0430"
+      - Ice cube
+      - Ais kiub
+      - Kubik es
+      - Cubo de gelo
+      - Kostka lodu
+      - "\u6C37\u30AD\u30E5\u30FC\u30D6"
+      - "\uC5BC\uC74C \uC870\uAC01"
+      - "\u51B0\u5757"
+      - "\u51B0\u584A"
+      - "Gla\xE7on"
+      - Cubetto di ghiaccio
+      - Cubito de hielo
+      - "Eisw\xFCrfel"
+      - "Buz k\xFCp\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_sky
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0435\u0431\u043E"
+      - Sky
+      - Langit
+      - Langit
+      - "C\xE9u"
+      - Niebo
+      - "\u7A7A"
+      - "\uD558\uB298"
+      - "\u5929\u7A7A"
+      - "\u5929\u7A7A"
+      - Ciel
+      - Cielo
+      - Cielo
+      - Himmel
+      - "G\xF6ky\xFCz\xFC"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_whale
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0438\u0442"
+      - Whale
+      - Paus
+      - Paus
+      - Baleia
+      - Wieloryb
+      - "\u9BE8"
+      - "\uACE0\uB798"
+      - "\u9CB8\u9C7C"
+      - "\u9BE8\u9B5A"
+      - Baleine
+      - Balena
+      - Ballena
+      - Wal
+      - Balina
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_marine
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u043A\u0432\u0430\u043C\u0430\u0440\u0438\u043D"
+      - Aquamarine
+      - Akwamarin
+      - Akwamarin
+      - "\xC1gua-marinha"
+      - Akwamaryn
+      - "\u30A2\u30AF\u30A2\u30DE\u30EA\u30F3"
+      - "\uC544\uCFE0\uC544\uB9C8\uB9B0"
+      - "\u84DD\u5B9D\u77F3"
+      - "\u85CD\u5BF6\u77F3"
+      - Aigue-marine
+      - Acquamarina
+      - Aguamarina
+      - Aquamarin
+      - Akvamarin
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_indigo
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0418\u043D\u0434\u0438\u0433\u043E"
+      - Indigo
+      - Indigo
+      - Indigo
+      - "\xCDndigo"
+      - Indygo
+      - "\u30A4\u30F3\u30C7\u30A3\u30B4"
+      - "\uC778\uB514\uACE0 "
+      - "\u975B\u84DD\u8272"
+      - "\u975B\u85CD\u8272"
+      - Indigo
+      - Indaco
+      - "\xCDndigo"
+      - Indigo
+      - "\u0130ndigo"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_eggplant
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u043A\u043B\u0430\u0436\u0430\u043D"
+      - Eggplant
+      - Terung
+      - Terong
+      - Berinjela
+      - "Bak\u0142a\u017Can"
+      - "\u30CA\u30B9"
+      - "\uAC00\uC9C0"
+      - "\u8304\u5B50"
+      - "\u8304\u5B50"
+      - Aubergine
+      - Melanzana
+      - Berenjena
+      - Aubergine
+      - "Patl\u0131can"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_worm
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0427\u0435\u0440\u0432\u044F\u0447\u043E\u043A"
+      - Worm
+      - Cacing
+      - Cacing
+      - Minhoca
+      - Robak
+      - "\u30DF\u30DF\u30BA"
+      - "\uC9C0\uB801\uC774"
+      - "\u866B\u5B50"
+      - "\u87F2\u5B50"
+      - Ver
+      - Verme
+      - Gusano
+      - Wurm
+      - Solucan
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_lipstick
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043C\u0430\u0434\u0430"
+      - Lipstick
+      - Lipstik
+      - Lipstik
+      - Batom
+      - Pomadka
+      - "\u53E3\u7D05"
+      - "\uB9BD\uC2A4\uD2F1"
+      - "\u53E3\u7EA2"
+      - "\u53E3\u7D05"
+      - "Rouge \xE0 l\xE8vres"
+      - Rossetto
+      - Pintalabios
+      - Lippenstift
+      - Ruj
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_bubblegum
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0416\u0432\u0430\u0447\u043A\u0430"
+      - Gum
+      - Getah permen
+      - Permen karet
+      - Chiclete
+      - "Guma do \u017Cucia"
+      - "\u30AC\u30E0"
+      - "\uAECC"
+      - "\u53E3\u9999\u7CD6"
+      - "\u53E3\u9999\u7CD6"
+      - Chewing-gum
+      - Gomma da masticare
+      - Chicle
+      - Kaugummi
+      - "Sak\u0131z"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_colour_dragon
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0440\u0430\u043A\u043E\u043D"
+      - Dragon
+      - Naga
+      - Naga
+      - "Drag\xE3o"
+      - Smok
+      - "\u30C9\u30E9\u30B4\u30F3"
+      - "\uC6A9"
+      - "\u9F99"
+      - "\u9F8D"
+      - Dragon
+      - Drago
+      - "Drag\xF3n"
+      - Drache
+      - Ejderha
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Squares
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0432\u0430\u0434\u0440\u0430\u0442\u044B"
+      - Squares
+      - Persegi
+      - Persegi
+      - Quadrados
+      - Kwadraty
+      - "\u6B63\u65B9\u5F62"
+      - "\uC0AC\uAC01\uD615"
+      - "\u6B63\u65B9\u5F62"
+      - "\u6B63\u65B9\u5F62"
+      - "Carr\xE9s"
+      - Quadrati
+      - Cuadrados
+      - Quadrate
+      - Kareler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Hex
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0413\u0435\u043A\u0441\u0430\u0433\u043E\u043D\u044B"
+      - Hexagons
+      - Heksagon
+      - Heksagon
+      - "Hex\xE1gonos"
+      - "Sze\u015Bciok\u0105ty"
+      - "\u516D\u89D2\u5F62"
+      - "\uC721\uAC01\uD615"
+      - "\u516D\u8FB9\u5F62"
+      - "\u516D\u908A\u5F62"
+      - Hexagones
+      - Esagoni
+      - "Hex\xE1gonos"
+      - Sechsecke
+      - "Alt\u0131genler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Circles
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u0440\u0443\u0436\u043E\u0447\u043A\u0438"
+      - Circles
+      - Bulatan
+      - Lingkaran
+      - "C\xEDrculos"
+      - "Ko\u0142a"
+      - "\u5186"
+      - "\uC6D0"
+      - "\u5706\u5708"
+      - "\u5713\u5708"
+      - Cercles
+      - Cerchi
+      - "C\xEDrculos"
+      - Kreise
+      - Daireler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Moons
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u0443\u043D\u044B"
+      - Moons
+      - Bulan-bulan
+      - Bulan-bulan
+      - Luas
+      - "Ksi\u0119\u017Cyce"
+      - "\u6708"
+      - "\uB2EC"
+      - "\u6708\u4EAE"
+      - "\u6708\u4EAE"
+      - Lunes
+      - Lune
+      - Lunas
+      - Monde
+      - Ay'lar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Hearts
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0435\u0440\u0434\u0435\u0447\u043A\u0438"
+      - Hearts
+      - Hati
+      - Hati
+      - "Cora\xE7\xF5es"
+      - Serca
+      - "\u30CF\u30FC\u30C8"
+      - "\uD558\uD2B8"
+      - "\u5FC3\u5F62"
+      - "\u5FC3\u5F62"
+      - "C\u0153urs"
+      - Cuori
+      - Corazones
+      - Herzen
+      - Kalpler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_sequins_Stars
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0432\u0435\u0437\u0434\u044B"
+      - Stars
+      - Bintang
+      - Bintang
+      - Estrelas
+      - Gwiazdy
+      - "\u661F"
+      - "\uBCC4"
+      - "\u661F\u661F"
+      - "\u661F\u661F"
+      - "\xC9toiles"
+      - Stelle
+      - Estrellas
+      - Sterne
+      - "Y\u0131ld\u0131zlar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Avocados
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u0432\u043E\u043A\u0430\u0434\u043E"
+      - Avocado
+      - Avokado
+      - Avokad
+      - Abacate
+      - Awokado
+      - "\u30A2\u30DC\u30AB\u30C9"
+      - "\uC544\uBCF4\uCE74\uB3C4"
+      - "\u9CC4\u68A8"
+      - "\u9C77\u68A8"
+      - Avocat
+      - Avocado
+      - Aguacate
+      - Avocado
+      - Avokado
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Gifts_1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0430\u0440\u043A\u0438 #1"
+      - Gifts #1
+      - Hadiah #1
+      - Hadiah #1
+      - Presentes #1
+      - Prezenty #1
+      - "\u30D7\u30EC\u30BC\u30F3\u30C8 #1"
+      - "\uC120\uBB3C #1"
+      - "\u793C\u7269 #1"
+      - "\u79AE\u7269 #1"
+      - Cadeaux #1
+      - Regali #1
+      - Regalos #1
+      - Geschenke #1
+      - Hediyeler #1
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Gifts_2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0430\u0440\u043A\u0438 #2"
+      - Gifts #2
+      - Hadiah #2
+      - Hadiah #2
+      - Presentes #2
+      - Prezenty #2
+      - "\u30D7\u30EC\u30BC\u30F3\u30C8 #2"
+      - "\uC120\uBB3C #2"
+      - "\u793C\u7269 #2"
+      - "\u79AE\u7269 #2"
+      - Cadeaux #2
+      - Regali #2
+      - Regalos #2
+      - Geschenke #2
+      - Hediyeler #2
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Gifts_3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0434\u0430\u0440\u043A\u0438 #3"
+      - Gifts #3
+      - Hadiah #3
+      - Hadiah #3
+      - Presentes #3
+      - Prezenty #3
+      - "\u30D7\u30EC\u30BC\u30F3\u30C8 #3"
+      - "\uC120\uBB3C #3"
+      - "\u793C\u7269 #3"
+      - "\u79AE\u7269 #3"
+      - Cadeaux #3
+      - Regali #3
+      - Regalos #3
+      - Geschenke #3
+      - Hediyeler #3
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Donuts
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043D\u0447\u0438\u043A\u0438"
+      - Donuts
+      - Donat
+      - Donat
+      - Donuts
+      - "P\u0105czki"
+      - "\u30C9\u30FC\u30CA\u30C4"
+      - "\uB3C4\uB11B"
+      - "\u751C\u751C\u5708"
+      - "\u751C\u751C\u5708"
+      - Beignets
+      - Ciambelle
+      - Donas
+      - Donuts
+      - Donutlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Candies
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u043D\u0444\u0435\u0442\u043A\u0438"
+      - Candies
+      - Gula-gula
+      - Permen
+      - Balas
+      - Cukierki
+      - "\u30AD\u30E3\u30F3\u30C7\u30A3"
+      - "\uC0AC\uD0D5"
+      - "\u7CD6\u679C"
+      - "\u7CD6\u679C"
+      - Bonbons
+      - Caramelle
+      - Caramelos
+      - Bonbons
+      - "\u015Eekerler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Bones
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041A\u043E\u0441\u0442\u043E\u0447\u043A\u0438"
+      - Bones
+      - Tulang
+      - Tulang
+      - Ossos
+      - "Ko\u015Bci"
+      - "\u9AA8"
+      - "\uBF08"
+      - "\u9AA8\u5934"
+      - "\u9AA8\u982D"
+      - Os
+      - Ossa
+      - Huesos
+      - Knochen
+      - Kemikler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Unicorns
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0415\u0434\u0438\u043D\u043E\u0440\u043E\u0433\u0438"
+      - Unicorns
+      - Kuda bertanduk
+      - Unicorn
+      - "Unic\xF3rnios"
+      - "Jednoro\u017Cce"
+      - "\u30E6\u30CB\u30B3\u30FC\u30F3"
+      - "\uC720\uB2C8\uCF58"
+      - "\u72EC\u89D2\u517D"
+      - "\u7368\u89D2\u7378"
+      - Licornes
+      - Unicorni
+      - Unicornios
+      - "Einh\xF6rner"
+      - Tekboynuzlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Bananas
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u043D\u0430\u043D\u044B"
+      - Bananas
+      - Pisang
+      - Pisang
+      - Bananas
+      - Banany
+      - "\u30D0\u30CA\u30CA"
+      - "\uBC14\uB098\uB098"
+      - "\u9999\u8549"
+      - "\u9999\u8549"
+      - Bananes
+      - Banane
+      - "Pl\xE1tanos"
+      - Bananen
+      - Muzlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Oranges
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u044B"
+      - Oranges
+      - Oren
+      - Jeruk
+      - Laranjas
+      - "Pomara\u0144cze"
+      - "\u30AA\u30EC\u30F3\u30B8"
+      - "\uC624\uB80C\uC9C0"
+      - "\u6A59\u5B50"
+      - "\u6A59\u5B50"
+      - Oranges
+      - Arance
+      - Naranjas
+      - Orangen
+      - Portakallar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Limes
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041B\u0430\u0439\u043C\u044B"
+      - Limes
+      - Limau
+      - Jeruk nipis
+      - "Lim\xF5es"
+      - Limonki
+      - "\u30E9\u30A4\u30E0"
+      - "\uB77C\uC784"
+      - "\u9752\u67E0\u6AAC"
+      - "\u9752\u6AB8\u6AAC"
+      - Citrons verts
+      - Lime
+      - Limas
+      - Limetten
+      - Limonlar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Fruits
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0424\u0440\u0443\u043A\u0442\u044B"
+      - Fruits
+      - Buah-buahan
+      - Buah-buahan
+      - Frutas
+      - Owoce
+      - "\u30D5\u30EB\u30FC\u30C4"
+      - "\uACFC\uC77C"
+      - "\u6C34\u679C"
+      - "\u6C34\u679C"
+      - Fruits
+      - Frutta
+      - Frutas
+      - "Fr\xFCchte"
+      - Meyveler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Suns
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043E\u043B\u043D\u044B\u0448\u043A\u0438"
+      - Suns
+      - Matahari
+      - Matahari
+      - "S\xF3is"
+      - "S\u0142o\u0144ca"
+      - "\u592A\u967D"
+      - "\uD0DC\uC591"
+      - "\u592A\u9633"
+      - "\u592A\u967D"
+      - Soleils
+      - Soli
+      - Soles
+      - Sonnen
+      - "G\xFCne\u015Fler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Balls
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u044F\u0447\u0438"
+      - Balls
+      - Bola-bola
+      - Bola-bola
+      - Bolas
+      - "Pi\u0142ki"
+      - "\u30DC\u30FC\u30EB"
+      - "\uACF5"
+      - "\u7403"
+      - "\u7403"
+      - Balles
+      - Palline
+      - Pelotas
+      - "B\xE4lle"
+      - Toplar
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Emoji
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042D\u043C\u043E\u0434\u0437\u0438"
+      - Emoji
+      - Emosi
+      - Emoji
+      - Emojis
+      - Emotikony
+      - "\u7D75\u6587\u5B57"
+      - "\uC774\uBAA8\uD2F0\uCF58"
+      - "\u8868\u60C5\u7B26\u53F7"
+      - "\u8868\u60C5\u7B26\u865F"
+      - Emojis
+      - Emoticon
+      - Emojis
+      - Emojis
+      - Emojiler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Rockets
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0430\u043A\u0435\u0442\u044B"
+      - Rockets
+      - Roket
+      - Roket
+      - Foguetes
+      - Rakiety
+      - "\u30ED\u30B1\u30C3\u30C8"
+      - "\uB85C\uCF13"
+      - "\u706B\u7BAD"
+      - "\u706B\u7BAD"
+      - "Fus\xE9es"
+      - Razzi
+      - Cohetes
+      - Raketen
+      - Roketler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Planets
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043B\u0430\u043D\u0435\u0442\u044B"
+      - Planets
+      - Planet
+      - Planet
+      - Planetas
+      - Planety
+      - "\u60D1\u661F"
+      - "\uD589\uC131"
+      - "\u884C\u661F"
+      - "\u884C\u661F"
+      - "Plan\xE8tes"
+      - Pianeti
+      - Planetas
+      - Planeten
+      - Gezegenler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_additives_Bottles
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0443\u0442\u044B\u043B\u043E\u0447\u043A\u0438"
+      - Bottles
+      - Botol-botol
+      - Botol-botol
+      - Garrafas
+      - Butelki
+      - "\u30DC\u30C8\u30EB"
+      - "\uBCD1"
+      - "\u74F6\u5B50"
+      - "\u74F6\u5B50"
+      - Bouteilles
+      - Bottiglie
+      - Botellas
+      - Flaschen
+      - "\u015Ei\u015Feler"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_base
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u0430\u0437\u043E\u0432\u044B\u0439"
+      - Basic
+      - Asas
+      - Dasar
+      - "B\xE1sico"
+      - Podstawowy
+      - "\u30D9\u30FC\u30B7\u30C3\u30AF"
+      - "\uAE30\uBCF8"
+      - "\u57FA\u672C\u7684"
+      - "\u57FA\u672C\u7684"
+      - Basique
+      - Base
+      - "B\xE1sico"
+      - Grundlegend
+      - Temel
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_glass
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u0442\u0435\u043A\u043B\u044F\u043D\u043D\u044B\u0439"
+      - Glass
+      - Kaca
+      - Kaca
+      - Vidro
+      - "Szk\u0142o"
+      - "\u30AC\u30E9\u30B9"
+      - "\uC720\uB9AC"
+      - "\u73BB\u7483"
+      - "\u73BB\u7483"
+      - Verre
+      - Vetro
+      - Vidrio
+      - Glas
+      - Cam
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_fluffy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u0443\u0448\u0438\u0441\u0442\u0438\u043A"
+      - Fluffball
+      - Bulu-bulu
+      - Bulu-bulu
+      - Bolinha fofa
+      - Puchatek
+      - "\u30D5\u30EF\u30D5\u30EF\u30DC\u30FC\u30EB"
+      - "\uBCF4\uC1A1\uBCF4\uC1A1\uD55C \uACF5"
+      - "\u6BDB\u8338\u8338\u7684\u7403"
+      - "\u6BDB\u8338\u8338\u7684\u7403"
+      - Boule duveteuse
+      - Pallina soffice
+      - Bolita esponjosa
+      - Flauschball
+      - Puf topu
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_cloud
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439"
+      - Airy
+      - Berangin
+      - Berangin
+      - Arejado
+      - Przewiewny
+      - "\u3075\u3093\u308F\u308A\u3068\u3057\u305F"
+      - "\uAC00\uBCBC\uC6B4"
+      - "\u8F7B\u76C8\u7684"
+      - "\u8F15\u76C8\u7684"
+      - "A\xE9r\xE9"
+      - Aereo
+      - "A\xE9reo"
+      - Luftig
+      - "Hafif r\xFCzgarl\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_slime_glitter
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0411\u043B\u0435\u0441\u0442\u044F\u0449\u0438\u0439"
+      - Shiny
+      - Bersinar
+      - Berkilau
+      - Brilhante
+      - "B\u0142yszcz\u0105cy"
+      - "\u8F1D\u304F"
+      - "\uBC18\uC9DD\uC774\uB294"
+      - "\u95EA\u4EAE\u7684"
+      - "\u9583\u4EAE\u7684"
+      - Brillant
+      - Luccicante
+      - Brillante
+      - "Gl\xE4nzend"
+      - Parlak
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_chooselanguage
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u043E\u0440 \u044F\u0437\u044B\u043A\u0430"
+      - Language selection
+      - Pilihan bahasa
+      - Pilihan bahasa
+      - "Sele\xE7\xE3o de idioma"
+      - "Wyb\xF3r j\u0119zyka"
+      - "\u8A00\u8A9E\u306E\u9078\u629E"
+      - "\uC5B8\uC5B4 \uC120\uD0DD"
+      - "\u8BED\u8A00\u9009\u62E9"
+      - "\u8A9E\u8A00\u9078\u64C7"
+      - "S\xE9lection de langue"
+      - Selezione della lingua
+      - "Selecci\xF3n de idioma"
+      - Sprachauswahl
+      - "Dil se\xE7imi"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_privacy
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043B\u0438\u0442\u0438\u043A\u0430 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+      - Privacy Policy
+      - Dasar Privasi
+      - Kebijakan Privasi
+      - "Pol\xEDtica de Privacidade"
+      - "Polityka prywatno\u015Bci"
+      - "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+      - "\uAC1C\uC778\uC815\uBCF4 \uCC98\uB9AC\uBC29\uCE68"
+      - "\u9690\u79C1\u653F\u7B56"
+      - "\u96B1\u79C1\u6B0A\u653F\u7B56"
+      - "Politique de confidentialit\xE9"
+      - Informativa sulla privacy
+      - "Pol\xEDtica de privacidad"
+      - Datenschutzrichtlinie
+      - "Gizlilik Politikas\u0131"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_sound
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0432\u0443\u043A\u0438"
+      - Sounds
+      - Bunyi
+      - Suara
+      - Sons
+      - "D\u017Awi\u0119ki"
+      - "\u30B5\u30A6\u30F3\u30C9"
+      - "\uC74C\uD5A5"
+      - "\u97F3\u6548"
+      - "\u97F3\u6548"
+      - Sons
+      - Effetti
+      - Sonido
+      - Sounds
+      - Ses
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_music
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041C\u0443\u0437\u044B\u043A\u0430"
+      - Music
+      - Muzik
+      - Musik
+      - "M\xFAsica"
+      - Muzyka
+      - "\u97F3\u697D"
+      - "\uC74C\uC545"
+      - "\u97F3\u4E50"
+      - "\u97F3\u6A02"
+      - Musique
+      - Musica
+      - "M\xFAsica"
+      - Musik
+      - "M\xFCzik"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_notifications
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F"
+      - Notifications
+      - Pemberitahuan
+      - Notifikasi
+      - "Notifica\xE7\xF5es"
+      - Powiadomienia
+      - "\u901A\u77E5"
+      - "\uC54C\uB9BC"
+      - "\u901A\u77E5"
+      - "\u901A\u77E5"
+      - Notifications
+      - Notifiche
+      - Notificaciones
+      - Benachrichtigungen
+      - Bildirimler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_vibration
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F"
+      - Vibration
+      - Getaran
+      - Getar
+      - "Vibra\xE7\xE3o"
+      - Wibracje
+      - "\u632F\u52D5"
+      - "\uC9C4\uB3D9"
+      - "\u632F\u52A8"
+      - "\u9707\u52D5"
+      - Vibrations
+      - Vibrazione
+      - "Vibraci\xF3n"
+      - Vibration
+      - "Titre\u015Fim"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_language
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u042F\u0437\u044B\u043A"
+      - Language
+      - Bahasa
+      - Bahasa
+      - Idioma
+      - "J\u0119zyk"
+      - "\u8A00\u8A9E"
+      - "\uC5B8\uC5B4"
+      - "\u8BED\u8A00"
+      - "\u8A9E\u8A00"
+      - Langue
+      - Lingua
+      - Idioma
+      - Sprache
+      - Dil
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_change
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043C\u0435\u043D\u0438\u0442\u044C"
+      - Change
+      - Tukar
+      - Ubah
+      - Mudar
+      - "Zmieni\u0107"
+      - "\u5909\u66F4\u3059\u308B"
+      - "\uBCC0\uACBD\uD558\uB2E4"
+      - "\u66F4\u6539"
+      - "\u66F4\u6539"
+      - Changer
+      - Cambiare
+      - Cambiar
+      - "\xC4ndern"
+      - "De\u011Fi\u015Ftirmek"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_target
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0435\u043A\u043B\u0430\u043C\u0430 \u043F\u043E \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0430\u043C"
+      - Personalized ads
+      - Iklan diperibadikan
+      - Iklan personalisasi
+      - "An\xFAncios personalizados"
+      - Spersonalizowane reklamy
+      - "\u3042\u306A\u305F\u5411\u3051\u306E\u5E83\u544A"
+      - "\uB9DE\uCDA4\uD615 \uAD11\uACE0"
+      - "\u5B9A\u5236\u5E7F\u544A"
+      - "\u500B\u4EBA\u5316\u5EE3\u544A"
+      - "Publicit\xE9s personnalis\xE9es"
+      - "Pubblicit\xE0 personalizzate"
+      - Anuncios personalizados
+      - Personalisierte Werbung
+      - "Ki\u015Fiselle\u015Ftirilmi\u015F reklamlar"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_settings_language_name
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+      - English
+      - Melayu
+      - Bahasa Indonesia
+      - "Portugu\xEAs"
+      - Polski
+      - "\u65E5\u672C\u8A9E"
+      - "\uD55C\uAD6D\uC5B4"
+      - "\u4E2D\u6587"
+      - "\u7E41\u9AD4\u4E2D\u6587"
+      - "Fran\xE7ais"
+      - Italiano
+      - "Espa\xF1ol"
+      - Deutsch
+      - "T\xFCrk\xE7e"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_popup_exit_title
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u043A\u0438\u043D\u0443\u0442\u044C \u0438\u0433\u0440\u0443"
+      - Leave the game
+      - Tinggalkan permainan
+      - Tinggalkan permainan
+      - Sair do jogo
+      - "Opu\u015B\u0107 gr\u0119"
+      - "\u30B2\u30FC\u30E0\u3092\u7D42\u4E86\u3059\u308B"
+      - "\uAC8C\uC784\uC744 \uB5A0\uB098\uB2E4"
+      - "\u79BB\u5F00\u6E38\u620F"
+      - "\u96E2\u958B\u904A\u6232"
+      - Quitter le jeu
+      - Lascia il gioco
+      - Abandonar el juego
+      - Spiel verlassen
+      - "Oyundan ayr\u0131l"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_popup_exit_description
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B \u0442\u043E\u0447\u043D\u043E \u0445\u043E\u0442\u0438\u0442\u0435
+        \u0432\u044B\u0439\u0442\u0438 \u0438\u0437 \u0438\u0433\u0440\u044B?"
+      - Are you sure you want to leave the game?
+      - Anda pasti mahu keluar dari permainan?
+      - Yakin ingin keluar dari permainan?
+      - Tem certeza de que deseja sair do jogo?
+      - "Na pewno chcesz opu\u015Bci\u0107 gr\u0119?"
+      - "\u672C\u5F53\u306B\u30B2\u30FC\u30E0\u3092\u7D42\u4E86\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uAC8C\uC784\uC744 \uC815\uB9D0\uB85C \uC885\uB8CC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "\u786E\u5B9A\u8981\u79BB\u5F00\u6E38\u620F\u5417\uFF1F"
+      - "\u78BA\u5B9A\u8981\u96E2\u958B\u904A\u6232\u55CE\uFF1F"
+      - "\xCAtes-vous s\xFBr de vouloir quitter le jeu ?"
+      - Sei sicuro di voler uscire dal gioco?
+      - "\xBFSeguro que quieres abandonar el juego?"
+      - "M\xF6chten Sie das Spiel wirklich verlassen?"
+      - "Oyundan \xE7\u0131kmak istedi\u011Fine emin misin?"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_universal_yes
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0430"
+      - Yes
+      - Ya
+      - Ya
+      - Sim
+      - Tak
+      - "\u306F\u3044"
+      - "\uB124"
+      - "\u662F"
+      - "\u662F"
+      - Oui
+      - "S\xEC"
+      - "S\xED"
+      - Ja
+      - Evet
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_universal_no
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0435\u0442"
+      - No
+      - Tidak
+      - Tidak
+      - "N\xE3o"
+      - Nie
+      - "\u3044\u3044\u3048"
+      - "\uC544\uB2C8\uC694"
+      - "\u4E0D"
+      - "\u4E0D"
+      - Non
+      - No
+      - No
+      - Nein
+      - "Hay\u0131r"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_age
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0432\u043E\u0439
+        \u0433\u043E\u0434 \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F"
+      - Choose your year of birth
+      - Pilih tahun kelahiran anda
+      - Pilih tahun kelahiran Anda
+      - Escolha seu ano de nascimento
+      - "Wybierz sw\xF3j rok urodzenia"
+      - "\u751F\u5E74\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uCD9C\uC0DD \uC5F0\uB3C4\uB97C \uC120\uD0DD\uD558\uC2ED\uC2DC\uC624"
+      - "\u9009\u62E9\u60A8\u7684\u51FA\u751F\u5E74\u4EFD"
+      - "\u9078\u64C7\u60A8\u7684\u51FA\u751F\u5E74\u4EFD"
+      - "Choisissez votre ann\xE9e de naissance"
+      - Scegli il tuo anno di nascita
+      - "Elija su a\xF1o de nacimiento"
+      - "W\xE4hlen Sie Ihr Geburtsjahr"
+      - "Do\u011Fum y\u0131l\u0131n\u0131z\u0131 se\xE7in"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_time
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u0440\u0435\u043C\u044F"
+      - Time
+      - Masa
+      - Waktu
+      - Tempo
+      - Czas
+      - "\u6642\u9593"
+      - "\uC2DC\uAC04"
+      - "\u65F6\u95F4"
+      - "\u6642\u9593"
+      - Temps
+      - Tempo
+      - Tiempo
+      - Zeit
+      - Zaman
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_moves
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0425\u043E\u0434\u044B"
+      - Moves
+      - Langkah-langkah
+      - Langkah-langkah
+      - Movimentos
+      - Ruchy
+      - "\u624B\u9806"
+      - "\uC6C0\uC9C1\uC784"
+      - "\u6B65\u9AA4"
+      - "\u6B65\u9A5F"
+      - Mouvements
+      - Mosse
+      - Movimientos
+      - "Z\xFCge"
+      - Hamleler
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_movetoaim
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0414\u0432\u0438\u0433\u0430\u0439, \u0447\u0442\u043E\u0431\u044B \u0446\u0435\u043B\u0438\u0442\u044C\u0441\u044F "
+      - Move to aim
+      - Bergerak untuk mengarahkan
+      - Bergerak untuk mengarahkan
+      - Mova-se para mirar
+      - "Poruszaj si\u0119, aby celowa\u0107"
+      - "\u72D9\u3046\u305F\u3081\u306B\u79FB\u52D5\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uC870\uC900\uD558\uAE30 \uC704\uD574 \uC6C0\uC9C1\uC774\uC2ED\uC2DC\uC624"
+      - "\u79FB\u52A8\u4EE5\u7784\u51C6"
+      - "\u79FB\u52D5\u4EE5\u7784\u51C6"
+      - Bougez pour viser
+      - Muoviti per mirare
+      - Mueve para apuntar
+      - Bewegen Sie sich, um zu zielen
+      - "Hedeflemek i\xE7in hareket et"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_games_target
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0426\u0435\u043B\u044C"
+      - Target
+      - Sasaran
+      - Target
+      - Meta
+      - Cel
+      - "\u30BF\u30FC\u30B2\u30C3\u30C8"
+      - "\uBAA9\uD45C"
+      - "\u76EE\u6807"
+      - "\u76EE\u6A19"
+      - Cible
+      - Obiettivo
+      - Objetivo
+      - Ziel
+      - "Hedeflemek i\xE7in hareket et"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_loading
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+      - Loading
+      - Memuatkan
+      - Memuat
+      - Carregando
+      - "\u0141adowanie"
+      - "\u30ED\u30FC\u30C9\u4E2D"
+      - "\uB85C\uB529 \uC911"
+      - "\u8F7D\u5165\u4E2D"
+      - "\u8F09\u5165\u4E2D"
+      - Chargement
+      - Caricamento
+      - Cargando
+      - Laden
+      - "Y\xFCkleniyor"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_comingsoon
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0421\u043A\u043E\u0440\u043E \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F"
+      - 'Coming soon '
+      - Akan datang
+      - Segera hadir
+      - Em breve
+      - "Wkr\xF3tce"
+      - "\u8FD1\u65E5\u516C\u958B\u4E88\u5B9A"
+      - "\uACE7 \uCD9C\uC2DC \uC608\uC815"
+      - "\u5373\u5C06\u5230\u6765"
+      - "\u5373\u5C07\u5230\u4F86"
+      - "Bient\xF4t disponible"
+      - Prossimamente
+      - "Pr\xF3ximamente"
+      - "Bald verf\xFCgbar"
+      - "Yak\u0131nda"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_popup_open_in_mall
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041D\u0430\u0439\u0434\u0438\u0442\u0435 \u0432 \u0442\u043E\u0440\u0433\u043E\u0432\u043E\u043C
+        \u0446\u0435\u043D\u0442\u0440\u0435"
+      - Find in the Moll
+      - Cari di pusat membeli-belah
+      - Temukan di pusat perbelanjaan
+      - Encontre no centro comercial
+      - "Znajd\u017A w centrum handlowym"
+      - "\u30B7\u30E7\u30C3\u30D4\u30F3\u30B0\u30BB\u30F3\u30BF\u30FC\u3067\u898B\u3064\u3051\u3066\u304F\u3060\u3055\u3044"
+      - "\uC1FC\uD551 \uC13C\uD130\uC5D0\uC11C \uCC3E\uC544\uBCF4\uC138\uC694"
+      - "\u5728\u8D2D\u7269\u4E2D\u5FC3\u627E"
+      - "\u5728\u8CFC\u7269\u4E2D\u5FC3\u627E"
+      - Trouvez dans le centre commercial
+      - Trova nel centro commerciale
+      - Encuentra en el centro comercial
+      - Finden Sie im Einkaufszentrum
+      - "Al\u0131\u015Fveri\u015F merkezinde bulun"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_popup_go_to_mall
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0412\u044B \u0445\u043E\u0442\u0438\u0442\u0435 \u043F\u043E\u0435\u0445\u0430\u0442\u044C
+        \u0432 \u0422\u043E\u0440\u0433\u043E\u0432\u044B\u0439 \u0426\u0435\u043D\u0442\u0440?"
+      - Do you want to go to the shopping mall?
+      - Adakah anda mahu pergi ke pusat membeli-belah?
+      - Apakah Anda ingin pergi ke pusat perbelanjaan?
+      - "Voc\xEA quer ir ao centro comercial?"
+      - "Chcesz i\u015B\u0107 do centrum handlowego?"
+      - "\u30B7\u30E7\u30C3\u30D4\u30F3\u30B0\u30E2\u30FC\u30EB\u306B\u884C\u304D\u305F\u3044\u3067\u3059\u304B\uFF1F"
+      - "\uC1FC\uD551\uBAB0\uC5D0 \uAC00\uACE0 \uC2F6\uC73C\uC138\uC694?"
+      - "\u4F60\u60F3\u53BB\u8D2D\u7269\u4E2D\u5FC3\u5417\uFF1F"
+      - "\u4F60\u60F3\u53BB\u8CFC\u7269\u4E2D\u5FC3\u55CE\uFF1F"
+      - Voulez-vous aller au centre commercial ?
+      - Vuoi andare al centro commerciale?
+      - "\xBFQuieres ir al centro comercial?"
+      - "M\xF6chten Sie zum Einkaufszentrum gehen?"
+      - "Al\u0131\u015Fveri\u015F merkezine gitmek ister misin?"
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    - Term: loc_key_popup_go
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u041F\u043E\u0435\u0445\u0430\u0442\u044C"
+      - Let's go
+      - Jom pergi
+      - Ayo pergi
+      - Vamos
+      - "Jed\u017Amy"
+      - "\u884C\u3053\u3046"
+      - "\uAC00\uC790"
+      - "\u8D70\u5427"
+      - "\u8D70\u5427"
+      - Allons-y
+      - Andiamo
+      - Vamos
+      - Los geht's
+      - Gidelim
+      Flags: 000000000000000000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Malay
+      Code: ms
+      Flags: 0
+    - Name: Indonesian
+      Code: id
+      Flags: 0
+    - Name: Brazil
+      Code: pt-BR
+      Flags: 0
+    - Name: Polish
+      Code: pl
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    - Name: Korean
+      Code: ko
+      Flags: 0
+    - Name: Chinese
+      Code: zh
+      Flags: 0
+    - Name: Traditional
+      Code: zh-TW
+      Flags: 0
+    - Name: France
+      Code: fr-FR
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Turkish
+      Code: tr
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzGgJcPE6tbzwqat1nILUSB6AmZYwNnL6DAB2hTFkShFYVEweqARpSwO-1j51NV9DQaAA/exec
+    Google_SpreadsheetKey: 1TswrRlN-24WLEMgcmO5W19_z9UkYAo8dQoROfQZoXxw
+    Google_SpreadsheetName: I2Loc baby-story Localization
+    Google_LastUpdatedVersion: 1685597645242
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

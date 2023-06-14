@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ccde3d0ed46678feef1e1df24e6db, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  type: 0
+  icon: {fileID: 21300000, guid: 4abd27605ff911c4e94898677db7e8bb, type: 3}
+  label: Base
+  recipe:
+    <Steps>k__BackingField:
+    - name: AddWhiteGlue
+      stateType: 2
+      changeBowlFill: 1
+      bowlFillAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: 0.2
+      animateMaterial: 1
+      materialAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: {fileID: 2100000, guid: 41df2f3a035255347a91ffcc03348dd5, type: 2}
+      effects: []
+      stepSound: {fileID: 8300000, guid: 3de11e403c15c4c148a32535bcc54db8, type: 3}
+    - name: AddWater
+      stateType: 1
+      changeBowlFill: 1
+      bowlFillAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: 0.5
+      animateMaterial: 1
+      materialAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: {fileID: 2100000, guid: 7365c8ace9cf8cd40b1e0ee8367ba053, type: 2}
+      effects:
+      - {fileID: 2973727409741977089, guid: 9396654fee1f18e42953bac6c7ecfe88, type: 3}
+      stepSound: {fileID: 8300000, guid: 1292a3090a628442a8c337f93e12d6c6, type: 3}
+    - name: AddActivator
+      stateType: 0
+      changeBowlFill: 1
+      bowlFillAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: 1
+      animateMaterial: 1
+      materialAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: {fileID: 2100000, guid: 1793fe3fefd64c94fab702801b899def, type: 2}
+      effects:
+      - {fileID: 5054915385932710414, guid: ee7bf5121891d0c4fa501dd69aeb10e2, type: 3}
+      stepSound: {fileID: 8300000, guid: 3de11e403c15c4c148a32535bcc54db8, type: 3}
+    - name: Mix
+      stateType: 3
+      changeBowlFill: 0
+      bowlFillAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: 0
+      animateMaterial: 1
+      materialAnimation:
+        animationCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        endValue: {fileID: 2100000, guid: e7fdfbaf602ec814f90a3678247e845f, type: 2}
+      effects: []
+      stepSound: {fileID: 8300000, guid: 3de11e403c15c4c148a32535bcc54db8, type: 3}
+  slimeSettings:
+    ShiftForce: 30
+    ShiftSmooth: 40
+    ShiftAccumulationFactor: 0.3
+    ShiftAccumulationDecreaseSpeed: 1.5
+    PushForce: 50
+    PushRadius: 0.05
+    PushDepthFactor: 10
+    PressSpeedFactor: 0.1
+    SpringForce: 10
+    Damping: 10
+    MaxShiftVelocity: 6
+  cachedMaterial: {fileID: 2100000, guid: e7fdfbaf602ec814f90a3678247e845f, type: 2}

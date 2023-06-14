@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 927642587de912c41847db3dcd6cc22a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - TT Rounds Neue
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cd3e99f55620c754a9be5083426ae739, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

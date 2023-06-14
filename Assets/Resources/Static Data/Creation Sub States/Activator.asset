@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88896c0a63649d3a3acb8e6963468ad, type: 3}
+  m_Name: Activator
+  m_EditorClassIdentifier: 
+  <Type>k__BackingField: 0
+  <Icon>k__BackingField: {fileID: 21300000, guid: cc815ffe73eb00946a1e6429d5756610, type: 3}
+  <Comment>k__BackingField: loc_key_slime_activator

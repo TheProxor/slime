@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!612988286 &1
+SpriteAtlasAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_MasterAtlas: {fileID: 0}
+  m_ImporterData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 3378481ab11ed694699ece48ed5ca2fa, type: 3}
+    - {fileID: 2800000, guid: d3377f1f5d0b1b04cb7096ce3c4ab363, type: 3}
+    - {fileID: 2800000, guid: e2ab9370e0ac9894989e5f97b3c34899, type: 3}
+    - {fileID: 2800000, guid: 6498bf17786479940b45bbf3c9646c0c, type: 3}
+    - {fileID: 2800000, guid: 505c1ba31047eb745b81d5789436f208, type: 3}
+    - {fileID: 2800000, guid: cabb86b18f5a91c428d997c344f4af3d, type: 3}
+    - {fileID: 2800000, guid: 2a4980bf55a8a0f4fb0d8cf7f960cb4f, type: 3}
+    - {fileID: 2800000, guid: 5d76bdac0d423aa4cbad8d634c17f320, type: 3}
+    - {fileID: 2800000, guid: 740a348279b966943bba30c0acf06d70, type: 3}
+    - {fileID: 2800000, guid: 6bc3c11cf675b9c488088d6228f2837d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 1
+    cachedData: {fileID: 0}
+  m_IsVariant: 0

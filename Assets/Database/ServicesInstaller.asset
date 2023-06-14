@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223b84a93aabab4498511781fbfb26c3, type: 3}
+  m_Name: ServicesInstaller
+  m_EditorClassIdentifier: 
+  servicesInstallers:
+  - rid: 2366816695872126978
+  - rid: 2366816741845368833
+  - rid: 2366816721200218112
+  - rid: 2366816721200218114
+  - rid: 2366816721200218113
+  - rid: 2366816741845368832
+  - rid: 2366816741845368834
+  references:
+    version: 2
+    RefIds:
+    - rid: 2366816695872126978
+      type: {class: EntryPointServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+      data:
+        settings:
+          <TargetFrameRate>k__BackingField: 60
+    - rid: 2366816721200218112
+      type: {class: WindowsServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+      data:
+        settings:
+          <SceneRootName>k__BackingField: UI
+          <Windows>k__BackingField:
+          - {fileID: 7515993891618711260, guid: f0ae6ad7f6399a34eb2ff95bcad3dd1b, type: 3}
+          <CanvasScalerBaseResolution>k__BackingField: {x: 1080, y: 1920}
+          <CanvasRenderMode>k__BackingField: 0
+          <SortingOffset>k__BackingField: 100
+          <PlaneDistance>k__BackingField: 0.3
+    - rid: 2366816721200218113
+      type: {class: StageServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+      data:
+        settings:
+          <StageViews>k__BackingField:
+            IsSingleLineView: 1
+            list:
+            - Key: 1
+              Value: {fileID: 8475708148137082907, guid: 9f079fa71acdbad4ca78468eee535ff6,
+                type: 3}
+    - rid: 2366816721200218114
+      type: {class: CameraServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+    - rid: 2366816741845368832
+      type: {class: AudioServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+      data:
+        settings:
+          <DataBase>k__BackingField: {fileID: 11400000, guid: 7e79fbefdce444a49909673405ff0e17,
+            type: 2}
+          <Mixer>k__BackingField: {fileID: 24100000, guid: da0de2e6667d447828dd52fe9bdcde30,
+            type: 2}
+          <PrefabAudioSource>k__BackingField: {fileID: 1365250491747569118, guid: 9b74cc2365307432abf80ca2df18f7df,
+            type: 3}
+          <SoundsFolderPath>k__BackingField: Sounds
+          <PrefabLoopedAudioSource>k__BackingField: {fileID: 262340019923738286, guid: b06944600511d4f4eaa8b6be0c8cb3de,
+            type: 3}
+          <PrefabMusicSource>k__BackingField: {fileID: 6619222628895770252, guid: eb2774399a2e941ce9b697050dd206bc,
+            type: 3}
+    - rid: 2366816741845368833
+      type: {class: PreferenceServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+    - rid: 2366816741845368834
+      type: {class: AdsServiceInstaller, ns: TheProxor.Installers, asm: TheProxor}
+      data:
+        settings:
+          <DataBase>k__BackingField: {fileID: 0}
+          <Mixer>k__BackingField: {fileID: 0}
+          <PrefabAudioSource>k__BackingField: {fileID: 0}
+          <SoundsFolderPath>k__BackingField: 
+          <PrefabLoopedAudioSource>k__BackingField: {fileID: 0}
+          <PrefabMusicSource>k__BackingField: {fileID: 0}

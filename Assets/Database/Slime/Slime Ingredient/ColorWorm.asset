@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13112b451764b84848e68007da5088b, type: 3}
+  m_Name: ColorWorm
+  m_EditorClassIdentifier: 
+  Id: ColorWorm
+  Type: 2
+  Description: "\u0426\u0432\u0435\u0442 \u0432 \u0441\u043B\u0430\u0439\u043C \u0427\u0435\u0440\u0432\u044F\u043A"
+  LocalizationKey: loc_key_slime_colour_worm
+  Price:
+    <CurrencyType>k__BackingField: 1
+    <Value>k__BackingField: 30
+  PriceReal: 0.15
+  DefaultCount: 1
+  Count: 1
+  isAdsIngredient: 0
+  ColorStaticData: {fileID: 11400000, guid: 4f3214a18258d7945bd4ef4bcad1fd98, type: 2}
